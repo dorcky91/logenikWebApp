@@ -1,0 +1,23 @@
+.navbar {
+  background-color: rgba(var(--light), 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.navbar-nav .nav-link.active {
+  color: rgb(var(--accent)) !important;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(var(--dark)) !important;
+  font-weight: 500;
+}
+
+.navbar-toggler {
+  color: rgb(var(--dark)) !important;
+  border: none !important;
+
+  &:focus {
+    box-shadow: none !important;
+  }
+}

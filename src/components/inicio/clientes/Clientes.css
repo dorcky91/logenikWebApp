@@ -1,0 +1,42 @@
+/* Contenedor principal: oculta logos que se salen */
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  /* padding: 20px 0; */
+  /* background-color: #f9f9f9; opcional */
+}
+
+/* Contenedor de logos con scroll continuo */
+.animate-scroll {
+  display: flex;
+  gap: 20px;
+  animation: scroll 25s linear infinite;
+  animation-play-state: running; /* corre por defecto */
+}
+
+/* Pausa la animación al hacer hover sobre cualquier logo */
+.carousel-container:hover .animate-scroll {
+  animation-play-state: paused;
+}
+
+/* Animación de scroll */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Estilo de los logos */
+.client-logo {
+  object-fit: contain;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+/* Efecto hover de los logos */
+.client-logo:hover {
+  transform: scale(1.1);
+}

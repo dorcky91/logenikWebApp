@@ -1,0 +1,14 @@
+.efecto-card-servicio {
+  position: absolute;
+  color: rgb(var(--light));
+  height: 29px;
+  bottom: -39px;
+  left: 0;
+}
+
+.efecto-card-servicio.svg-1 {
+  bottom: -40px;
+  left: -6px;
+  height: 34px;
+  transform: rotate(10deg);
+}

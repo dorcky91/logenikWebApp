@@ -1,0 +1,447 @@
+{
+  "hero": {
+    "subtitle": "Solisyon inovatè",
+    "title": "Nou bati lavni eksperyans dijital yo",
+    "description": "Nan LOGENIK, nou transfòme lide an platfòm entènèt ki likid, évolutif ak vizyèlman atiran. Nou kreye pwodwi dijital prim ak estrateji, kòd ak kreyativite.",
+    "contact": "Kontakte nou",
+    "projects": "Gade pwojè yo",
+    "stats": {
+      "clients": "Kliyan satisfè ki fè konfyans nan eksperyans ak rezilta dijital nou yo",
+      "professionals": "Pwofesyonèl ekspè k ap kreye solisyon entènèt inovatè ak pasyon teknolojik"
+    }
+  },
+
+  "menu": {
+    "home": "Akèy",
+    "services": "Sèvis",
+    "about": "Sou nou",
+    "contact": "Kontak"
+  },
+
+  "cardContact": {
+    "ctaTitle": "Èske ou gen yon pwojè nan tèt ou?",
+    "ctaText": "Nou fyè de kapasite nou pou nou reyalize rezilta epi depase atant yo. Rakonte nou sou bezwen ou yo lè w ranpli fòm ki anba a. Ekip nou an ap kontakte ou pi vit ke posib pou ede pote pwojè ou nan pwochen nivo a.",
+    "ctaButton": "Kontakte nou"
+  },
+
+  "solution": {
+    "solutionsTitle": "Solisyon ki fè diferans lan.",
+    "solutionsText": "Nou devlope lojisyèl pèsonalize ki adapte pafètman ak bezwen espesifik konpayi ou a. Apwòch ajil nou an ak metodoloji pwouve yo garanti rezilta eksepsyonèl nan chak pwojè.",
+    "solutionsList": [
+      {
+        "title": "Devlope ajil ak transparan",
+        "description": "Nou kenbe kominikasyon kontinyèl ak livrezon etap pa etap pou lapè nan tèt ou."
+      },
+      {
+        "title": "Teknoloji modèn ak echèl",
+        "description": "Nou itilize dènye teknoloji yo pou kreye solisyon solid ak dirab."
+      },
+      {
+        "title": "Sipò kontinyèl ak antretyen",
+        "description": "Nou akonpaye ou apre lansman avèk sipò teknik espesyalize."
+      }
+    ]
+  },
+
+  "whyUs": {
+    "title": "Poukisa chwazi nou?",
+    "text": "Nou se patnè teknolojik ou angaje pou siksè pwojè ou a. Pasyon nou pou inovasyon ak ekselans fè nou kanpe apa sou mache a.",
+    "features": [
+      {
+        "title": "Eksperyans",
+        "description": "Ekip ki gen plizyè ane eksperyans nan devlopman lojisyèl antrepriz ak demaraj siksè."
+      },
+      {
+        "title": "Kalite",
+        "description": "Kòd pwòp, tès solid, ak pi bon pratik nan devlopman."
+      },
+      {
+        "title": "Sipò",
+        "description": "Sipò teknik 24/7 ak antretyen kontinyèl pou asire pèfòmans optimal."
+      },
+      {
+        "title": "Inovasyon",
+        "description": "Nou itilize teknoloji ki pi avanse pou kreye solisyon inovatif."
+      }
+    ]
+  },
+
+  "servicesSection": {
+    "contenidos": [
+      {
+        "id": 0,
+        "title": "Aplikasyon entènèt",
+        "paragraphs": [
+          "Sèvis devlopman aplikasyon entènèt nou an kouvri tout etap pwosesis la: planifikasyon, konsepsyon, devlopman, piblikasyon ak antretyen. Nou travay nan yon fason estriktire ak estratejik pou asire ke chak pwojè satisfè pi gwo estanda kalite, sekirite ak pèfòmans.",
+          "Nou konsantre sou bati solisyon entènèt solid, évolutif ak pèsonalize, adapte ak bezwen ak objektif chak kliyan. Nou akonpaye tout sik lavi aplikasyon an, bay sipò teknik, mizajou ak optimize kontinyèl."
+        ],
+        "strong": "Nou transfòme lide ou an platfòm dijital efikas.",
+        "label": "Aplikasyon entènèt"
+      },
+      {
+        "id": 1,
+        "title": "Antretyen ak sipò",
+        "paragraphs": [
+          "Nou ofri sèvis konplè antretyen ak sipò pou sit entènèt oswa aplikasyon ou, pou asire ke li toujou fonksyone san pwoblèm ak an sekirite. Nou okipe mizajou, koreksyon erè, optimize pèfòmans ak adaptasyon ak nouvo teknoloji.",
+          "Ekip ekspè nou an bay sipò teknik rapid ak efikas, soti nan jesyon sèvè ak baz done rive nan aplikasyon nouvo fonksyonalite. Avèk sèvis nou an, sit ou toujou an sekirite, ajou, epi pare pou grandi avèk biznis ou."
+        ],
+        "strong": "Sit entènèt ou toujou an sekirite, ajou, e pare pou grandi.",
+        "label": "Antretyen ak sipò"
+      },
+      {
+        "id": 2,
+        "title": "Entegrasyon ak automatisation",
+        "paragraphs": [
+          "Nou ofri solisyon entegrasyon ak automatisation ki pèmèt sistèm ak zouti ou travay ansanm avèk efikasite, diminye travay manyèl ak erè. Nou konekte aplikasyon, platfòm ak baz done ou pou enfòmasyon sikile otomatikman.",
+          "Ekip nou an aplike workflow entelijan, senkronizasyon done ak automatisation pèsonalize ki optimize pwosesis entèn ou epi amelyore eksperyans kliyan yo. Avèk entegrasyon nou yo, biznis ou vin pi efikas, presi ak fleksib."
+        ],
+        "strong": "Konekte ak otomatik biznis ou pou ekonomize tan ak maksimize rezilta.",
+        "label": "Entegrasyon ak otomatizasyon"
+      }
+    ]
+  },
+
+  "projectsSection": {
+    "title": "Pwojè devlope resamman...",
+    "projects": [
+      {
+        "id": 1,
+        "title": "Sistèm A",
+        "viewProject": "Vizite pwojè a",
+        "description": "Platfòm jesyon kontni modèn ak adaptab."
+      },
+      {
+        "id": 2,
+        "title": "Magazen X",
+        "viewProject": "Vizite pwojè a",
+        "description": "E-commerce rapid ak personnalizé pou gwo mak."
+      },
+      {
+        "id": 3,
+        "title": "SPA",
+        "viewProject": "Vizite pwojè a",
+        "description": "Tablo analiz done an tan reyèl."
+      },
+      {
+        "id": 4,
+        "title": "Restoran",
+        "viewProject": "Vizite pwojè a",
+        "description": "Konsepsyon web korporatif konsantre sou eksperyans dijital."
+      },
+      {
+        "id": 5,
+        "title": "OceanT-G",
+        "viewProject": "Vizite pwojè a",
+        "description": "Sistèm jesyon nwaj ak entegrasyon API."
+      },
+      {
+        "id": 6,
+        "title": "Zyan-O",
+        "viewProject": "Vizite pwojè a",
+        "description": "Estrateji ak devlopman platfòm dijital mondyal."
+      }
+    ]
+  },
+
+  "testimoniosSection": {
+    "subtitle": "Temwayaj",
+    "title": "Sa kliyan nou yo di",
+    "description": "Eksperyans moun ki te fè nou konfyans reflete angajman nou pou kalite, inovasyon ak enpak reyèl solisyon nou yo.",
+    "items": [
+      {
+        "id": 1,
+        "nombre": "Orlando Apollon",
+        "cargo": "Direktè IT, Ta’Barato",
+        "imagen": "https://i.pravatar.cc/150?img=5",
+        "texto": "Mèsi ak ekip LogeniK la, nou te kapab dijitalize tout pwosesis entèn nou yo. Sipò yo te pafè depi nan kòmansman rive nan fen."
+      },
+      {
+        "id": 2,
+        "nombre": "María González",
+        "cargo": "PDG, Innovatech Group",
+        "imagen": "https://i.pravatar.cc/150?img=7",
+        "texto": "Apwòch estratejik ak teknolojik yo te transfòme fason nou sèvi kliyan nou yo. LogeniK konprann sa li ye pou grandi ak yon objektif."
+      },
+      {
+        "id": 3,
+        "nombre": "Javier Morales",
+        "cargo": "Manadjè Pwojè, DataCore",
+        "imagen": "https://i.pravatar.cc/150?img=6",
+        "texto": "Aplikasyon an te rapid, an sekirite epi li te depase atant nou yo. Ekip teknik yo vrèman eksepsyonèl."
+      },
+      {
+        "id": 4,
+        "nombre": "Lucía Herrera",
+        "cargo": "Fondatè, EcoSmart Solutions",
+        "imagen": "https://i.pravatar.cc/150?img=8",
+        "texto": "LogeniK ede nou otomatize travay kle yo. Kounye a nou travay plis efikas epi nou ka konsantre sou inovasyon."
+      },
+      {
+        "id": 5,
+        "nombre": "Carlos Mendoza",
+        "cargo": "CTO, NextLevel Systems",
+        "imagen": "https://i.pravatar.cc/150?img=9",
+        "texto": "Ekip yo trè pwofesyonèl e yo metrize teknoloji modèn yo. Yo te livre yon pwodwi solid ak évolutif nan yon tan rekord."
+      },
+      {
+        "id": 6,
+        "nombre": "Fernanda López",
+        "cargo": "Direktris Maketing, RedNova",
+        "imagen": "https://i.pravatar.cc/150?img=10",
+        "texto": "Avèk LogeniK, prezans dijital nou te amelyore anpil. Yo se patnè estratejik ki konprann bezwen kliyan yo."
+      }
+    ]
+  },
+
+  "heroServices": {
+    "subtitle": "Kisa nou fè?",
+    "title": {
+      "part1": "Nou pouse",
+      "highlight": "inovasyon dijital ou"
+    },
+    "description": "Nou kreye solisyon teknoloji espesyalman fèt pou ou, ki konbine konsepsyon, estrateji ak devlopman pou mak ki vle fè diferans.",
+    "button": "Ann travay ansanm"
+  },
+
+  "estrategiaSection": {
+    "subtitle": "Pouse dijital estratejik",
+    "title": "Solisyon dijital ki ankouraje kwasans teknolojik ou",
+    "items": [
+      {
+        "title": "Pwosesis klè ak evolisyon kontinyèl",
+        "text": "Chak etap fèt ak objektif defini, livrezon fonksyonèl ak revizyon kolaboratif. Ou avanse ak kontwòl total san okenn devyasyon."
+      },
+      {
+        "title": "Kominikasyon konstan ak desizyon pataje",
+        "text": "Nou rete an kontak dirèk tout tan. Nou valide chak etap avèk ou pou asire presizyon teknik ak lapè operasyonèl."
+      }
+    ]
+  },
+
+  "bannerServices": {
+    "title": "Teknoloji ki ranfòse inovasyon nan chak pwojè.",
+    "description": "Nan {{strong}}, nou konbine estrateji, konsepsyon ak teknoloji pou kreye pwodwi dijital ki pa sèlman bèl, men ki bay rezilta reyèl.",
+    "items": [
+      {
+        "icon": "bi-laptop",
+        "title": "Transfòmasyon Dijital",
+        "text": "Entègwe teknoloji estratejik pou elaji biznis ou.",
+        "image": "https://img.freepik.com/premium-photo/fund-management-concept_700248-34234.jpg"
+      },
+      {
+        "icon": "bi-code-slash",
+        "title": "Devlopman Web Entelijan",
+        "text": "Achitekti entènèt solid, an sekirite, pare pou grandi.",
+        "image": "https://img.freepik.com/premium-photo/man-blue-shirt-uses-tablet-night-office-setting-digital-programming-language-icons_890077-12948.jpg"
+      }
+    ]
+  },
+
+  "servicesOffered": {
+    "subtitle": "Sèvis Nou Yo",
+    "title": "Nou ankouraje inovasyon teknolojik ak solisyon dijital pèsonalize.",
+    "items": [
+      {
+        "icono": "bi-window-stack",
+        "titulo": "Devlope Web & Aplikasyon",
+        "texto": "Nou kreye platfòm dijital ki lis, echèl, e ki vizyèlman enpak pou ogmante prezans ou sou entènèt."
+      },
+      {
+        "icono": "bi-cloud",
+        "titulo": "Solisyon Cloud",
+        "texto": "Nou migre, jere ak optimize sistèm nwaj ou yo pou garanti sekirite, fleksibilite ak pèfòmans."
+      },
+      {
+        "icono": "bi-lightbulb",
+        "titulo": "Konsiltasyon Teknolojik",
+        "texto": "Nou gide ou nan adopte zouti inovatif pou fè biznis ou grandi avèk yon estrateji dijital solid."
+      },
+      {
+        "icono": "bi-shield-lock",
+        "titulo": "Sikse & Pwoteksyon Done",
+        "texto": "Nou pwoteje enfòmasyon kritik konpayi ou atravè odyans, siveyans ak sistèm sekirite avanse."
+      },
+      {
+        "icono": "bi-bar-chart-line",
+        "titulo": "Entèlijans Biznis (BI & Data Analytics)",
+        "texto": "Nou transfòme done ou yo nan desizyon entelijan ak tablo de bord ak analiz pèsonalize an tan reyèl."
+      },
+      {
+        "icono": "bi-gear",
+        "titulo": "Transfòmasyon Dijital",
+        "texto": "Nou ankouraje evolisyon teknolojik konpayi ou avèk solisyon ki optimize pwosesis epi amelyore efikasite."
+      }
+    ]
+  },
+
+  "aboutHeaderSection": {
+    "smallText": "Nou konstwi lavni dijital la avèk ou",
+    "title": "Nou se yon ekip pasyone k ap kreye eksperyans teknolojik ki pote biznis yo nan lavni.",
+    "highlight": "eksperyans teknolojik",
+    "features": [
+      {
+        "icono": "bi-gem",
+        "titulo": "Pasyon pou ekselans",
+        "texto": "Nou chèche pafè kontinyèl"
+      },
+      {
+        "icono": "bi-people",
+        "titulo": "Angajman ak chak kliyan",
+        "texto": "Siksè ou se objektif nou"
+      },
+      {
+        "icono": "bi-shield-check",
+        "titulo": "Transparans ak etik",
+        "texto": "Konfyans nan chak etap"
+      },
+      {
+        "icono": "bi-rocket-takeoff",
+        "titulo": "Evolisyon teknolojik",
+        "texto": "Inove se fòs nou"
+      }
+    ]
+  },
+
+  "aboutTeamSection": {
+    "subtitle": "Sa Nou Reprezante",
+    "title": "Nou kreye solisyon estratejik ak fyab ki jenere enpak reyèl.",
+    "cards": [
+      {
+        "icono": "bi-people",
+        "titulo": "Travay ann ekip",
+        "texto": "Nou ankouraje kolaborasyon pou reyalize objektif komen."
+      },
+      {
+        "icono": "bi-lightbulb",
+        "titulo": "Inovasyon kontinyèl",
+        "texto": "Nou chèche solisyon kreyatif ki pote valè reyèl."
+      },
+      {
+        "icono": "bi-shield-lock",
+        "titulo": "Konfyans & Transparans",
+        "texto": "Nou aji avèk etik ak sekirite nan chak pwojè."
+      },
+      {
+        "icono": "bi-rocket-takeoff",
+        "titulo": "Rezilta Mezirab",
+        "texto": "Sèvis nou yo jenere enpak konkrè nan biznis ou."
+      }
+    ]
+  },
+
+  "aboutExperiencesSection": {
+    "items": [
+      {
+        "value": 15,
+        "label": "pwojè fini"
+      },
+      {
+        "value": 10,
+        "label": "Kliyan"
+      },
+      {
+        "value": 10,
+        "label": "Ane eksperyans"
+      },
+      {
+        "value": 99,
+        "prefix": "+",
+        "suffix": "%",
+        "label": "satisfaksyon"
+      }
+    ]
+  },
+
+  "aboutBannerSection": {
+    "title": "Pare pou pote biznis ou nan siksè?",
+    "description": "Ekip ekspè nou yo nan devlopman, konsepsyon ak estrateji dijital travay avè w pou transfòme ide yo nan rezilta, asire ekselans nan chak pwojè.",
+    "button": "Ann Kòmanse"
+  },
+
+  "contactHeroSection": {
+    "title": "Kontakte nou",
+    "description": "W'ap chèche yon patnè devlopman entènèt? Ou jwenn li."
+  },
+
+  "contactProcessSection": {
+    "subtitle": "Pwofesyonèl & fyab",
+    "title": "Pare pou avanse pwochen gwo ide ou a?",
+    "description": "Ou yon etap pi pre pou konstwi pwodwi pafè ou a.",
+    "timelineTitle": "Metodoloji & pwosesis",
+    "timelineSteps": [
+      {
+        "number": 1,
+        "title": "Analiz & planifikasyon",
+        "description": "Nou defini objektif, kondisyon ak estrateji pou pwojè ou."
+      },
+      {
+        "number": 2,
+        "title": "Konsepsyon & pwototip",
+        "description": "Nou kreye wireframes ak pwototip vizyèl pou valide eksperyans lan."
+      },
+      {
+        "number": 3,
+        "title": "Devlopman & aplikasyon",
+        "description": "Nou bati solisyon an ak pi bon pratik ak teknoloji yo."
+      },
+      {
+        "number": 4,
+        "title": "Tès & lansman",
+        "description": "Nou valide kalite, sekirite ak fonksyonalite anvan livrezon."
+      }
+    ],
+    "form": {
+      "name": "Non",
+      "email": "Imèl",
+      "company": "Konpayi",
+      "subject": "Sijè",
+      "subjectOptions": {
+        "webDevelopment": "Devlopman Web & Aplikasyon",
+        "support": "Sipò teknik",
+        "ecommerce": "E-Commerce",
+        "other": "Lòt"
+      },
+      "message": "Mesaj",
+      "submit": "Voye mesaj"
+    }
+  },
+
+  "faqSection": {
+    "title": "Kesyon yo poze souvan",
+    "description": "Tout sa ou bezwen konnen anvan ou travay avèk nou.",
+    "items": [
+      {
+        "number": 1,
+        "question": "Konbyen tan li pran pou devlope yon sit entènèt?",
+        "answer": "Sa depann sou gwosè ak konpleksite pwojè a, anjeneral ant 4 a 12 semèn."
+      },
+      {
+        "number": 2,
+        "question": "Èske nou ofri antretyen apre lansman?",
+        "answer": "Wi, nou ofri pake sipò ak antretyen pou asire sit entènèt ou fonksyone san pwoblèm."
+      },
+      {
+        "number": 3,
+        "question": "Èske nou ka entegre e-commerce?",
+        "answer": "Absoliman, nou devlope solisyon e-commerce konplè adapte ak bezwen ou."
+      },
+      {
+        "number": 4,
+        "question": "Èske sit yo optimize pou SEO?",
+        "answer": "Wi, nou aplike bon pratik SEO depi konsepsyon rive nan devlopman."
+      },
+      {
+        "number": 5,
+        "question": "Kijan nou jere sekirite sit la?",
+        "answer": "Nou itilize pwotokòl sekirite, chifreman ak siveyans kontinyèl pou pwoteje done ou yo."
+      }
+    ]
+  },
+
+  "footer": {
+    "quick_links": "Lyen rapid",
+    "social": "Rezo sosyal",
+    "contact": "Kontak",
+    "rights_reserved": "Tout dwa rezève."
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "hero": {
+    "subtitle": "Innovative Solutions",
+    "title": "We build the future of digital experiences",
+    "description": "At LOGENIK, we transform ideas into fluid, scalable, and visually stunning web platforms. We create premium digital products built with strategy, code, and creativity.",
+    "contact": "Contact Us",
+    "projects": "View Projects",
+    "stats": {
+      "clients": "Satisfied clients who trust our digital expertise and results",
+      "professionals": "Expert professionals creating innovative web solutions with technological passion"
+    }
+  },
+
+  "menu": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+
+  "cardContact": {
+    "ctaTitle": "Do you have a project in mind?",
+    "ctaText": "We pride ourselves on delivering results and exceeding expectations. Tell us about your needs by filling out the form below. Our team will contact you as soon as possible to help take your project to the next level.",
+    "ctaButton": "Contact Us"
+  },
+
+  "solution": {
+    "solutionsTitle": "Solutions that make a difference.",
+    "solutionsText": "We develop custom software that perfectly adapts to the specific needs of your company. Our agile approach and proven methodologies ensure exceptional results in every project.",
+    "solutionsList": [
+      {
+        "title": "Agile and transparent development",
+        "description": "We maintain constant communication and incremental deliveries for your peace of mind."
+      },
+      {
+        "title": "Modern and scalable technologies",
+        "description": "We use the latest technologies to build robust and future-proof solutions."
+      },
+      {
+        "title": "Continuous support and maintenance",
+        "description": "We accompany you after launch with specialized technical support."
+      }
+    ]
+  },
+
+  "whyUs": {
+    "title": "Why choose us?",
+    "text": "We are your technology partner committed to the success of your project. Our passion for innovation and excellence sets us apart in the market.",
+    "features": [
+      {
+        "title": "Experience",
+        "description": "A team with years of experience in enterprise software development and successful startups."
+      },
+      {
+        "title": "Quality",
+        "description": "Clean code, thorough testing, and best development practices."
+      },
+      {
+        "title": "Support",
+        "description": "24/7 technical support and continuous maintenance to ensure optimal performance."
+      },
+      {
+        "title": "Innovation",
+        "description": "We use the most advanced technologies to create disruptive solutions."
+      }
+    ]
+  },
+
+  "servicesSection": {
+    "contenidos": [
+      {
+        "title": "Web Applications",
+        "paragraphs": [
+          "Our comprehensive web application development service covers all stages of the process: planning, design, development, publishing, and maintenance. We work strategically to ensure every project meets the highest standards of quality, security, and performance.",
+          "We focus on building solid, scalable, and customized web solutions tailored to each client's needs and goals. We support the entire application lifecycle with technical support, updates, and continuous optimization."
+        ],
+        "strong": "We Transform Ideas into Efficient Digital Platforms.",
+        "label": "Web Applications"
+      },
+      {
+        "title": "Maintenance and Support",
+        "paragraphs": [
+          "We offer complete maintenance and support services for your website or application, ensuring it always runs smoothly and securely. We handle updates, bug fixes, performance optimization, and adaptation to new technologies.",
+          "Our expert team provides fast and efficient technical support, from server management to implementing new features."
+        ],
+        "strong": "Your Website Always Secure, Updated, and Ready to Grow.",
+        "label": "Maintenance and Support"
+      },
+      {
+        "title": "Integrations and Automations",
+        "paragraphs": [
+          "We create integrations that allow your systems to work together efficiently, reducing manual tasks and errors. We connect your platforms so information flows automatically.",
+          "We implement intelligent workflows and data synchronization to optimize your internal processes and improve the customer experience."
+        ],
+        "strong": "Connect and Automate Your Business to Save Time and Maximize Results.",
+        "label": "Integrations and Automations"
+      }
+    ]
+  },
+
+  "projectsSection": {
+    "title": "Recently developed projects...",
+    "projects": [
+      {
+        "id": 1,
+        "title": "System A",
+        "viewProject": "View Project",
+        "description": "Modern and adaptable content management platform."
+      },
+      {
+        "id": 2,
+        "title": "Shop X",
+        "viewProject": "View Project",
+        "description": "Fast and customized e-commerce for big brands."
+      },
+      {
+        "id": 3,
+        "title": "SPA",
+        "viewProject": "View Project",
+        "description": "Real-time data analytics dashboard."
+      },
+      {
+        "id": 4,
+        "title": "Restaurant",
+        "viewProject": "View Project",
+        "description": "Corporate web design focused on digital experience."
+      },
+      {
+        "id": 5,
+        "title": "OceanT-G",
+        "viewProject": "View Project",
+        "description": "Cloud management system with API integration."
+      },
+      {
+        "id": 6,
+        "title": "Zyan-O",
+        "viewProject": "View Project",
+        "description": "Strategy and development of global digital platforms."
+      }
+    ]
+  },
+
+  "testimoniosSection": {
+    "subtitle": "Testimonials",
+    "title": "What our clients say",
+    "description": "The experiences of those who trusted us reflect our commitment to quality, innovation, and the real impact of our solutions.",
+    "items": [
+      {
+        "id": 1,
+        "nombre": "Orlando Apollon",
+        "cargo": "IT Director, Ta’Barato",
+        "imagen": "https://i.pravatar.cc/150?img=5",
+        "texto": "Thanks to the LogeniK team, we completely digitized our internal processes. Their support was flawless from start to finish."
+      },
+      {
+        "id": 2,
+        "nombre": "María González",
+        "cargo": "CEO, Innovatech Group",
+        "imagen": "https://i.pravatar.cc/150?img=7",
+        "texto": "Their strategic and technological approach transformed how we serve our clients. LogeniK truly understands what it means to grow with purpose."
+      },
+      {
+        "id": 3,
+        "nombre": "Javier Morales",
+        "cargo": "Project Manager, DataCore",
+        "imagen": "https://i.pravatar.cc/150?img=6",
+        "texto": "Implementation was fast, secure, and exceeded our expectations. Their technical team is truly exceptional."
+      },
+      {
+        "id": 4,
+        "nombre": "Lucía Herrera",
+        "cargo": "Founder, EcoSmart Solutions",
+        "imagen": "https://i.pravatar.cc/150?img=8",
+        "texto": "LogeniK helped us automate key operations. We now work more efficiently and can focus on innovation."
+      },
+      {
+        "id": 5,
+        "nombre": "Carlos Mendoza",
+        "cargo": "CTO, NextLevel Systems",
+        "imagen": "https://i.pravatar.cc/150?img=9",
+        "texto": "Their team is highly professional and masters the latest technologies. They delivered a robust and scalable product in record time."
+      },
+      {
+        "id": 6,
+        "nombre": "Fernanda López",
+        "cargo": "Marketing Director, RedNova",
+        "imagen": "https://i.pravatar.cc/150?img=10",
+        "texto": "With LogeniK, our digital presence took a huge leap forward. They are true strategic partners who understand client needs."
+      }
+    ]
+  },
+
+  "heroServices": {
+    "subtitle": "What do we do?",
+    "title": {
+      "part1": "We drive your",
+      "highlight": "digital innovation"
+    },
+    "description": "We create tailor-made technological solutions that combine design, strategy, and development for brands that seek to stand out.",
+    "button": "Let's work together"
+  },
+
+  "estrategiaSection": {
+    "subtitle": "Strategic digital drive",
+    "title": "Digital solutions that boost your technological growth",
+    "items": [
+      {
+        "title": "Clear processes and continuous evolution",
+        "text": "Each stage is executed with defined goals, functional deliverables, and collaborative review. You move forward with full control and no deviations."
+      },
+      {
+        "title": "Constant communication and shared decisions",
+        "text": "We maintain direct contact at all times. We validate each phase with you, ensuring technical accuracy and operational peace of mind."
+      }
+    ]
+  },
+
+  "bannerServices": {
+    "title": "Technology that drives innovation in every project.",
+    "description": "At {{strong}}, we combine strategy, design, and technology to create digital products that not only look great but also deliver measurable results.",
+    "items": [
+      {
+        "icon": "bi-laptop",
+        "title": "Digital Transformation",
+        "text": "Integrate strategic technology to scale your business.",
+        "image": "https://img.freepik.com/premium-photo/fund-management-concept_700248-34234.jpg"
+      },
+      {
+        "icon": "bi-code-slash",
+        "title": "Smart Web Development",
+        "text": "Robust, secure, and scalable web architecture ready to grow.",
+        "image": "https://img.freepik.com/premium-photo/man-blue-shirt-uses-tablet-night-office-setting-digital-programming-language-icons_890077-12948.jpg"
+      }
+    ]
+  },
+
+  "servicesOffered": {
+    "subtitle": "Our Services",
+    "title": "We drive technological innovation with custom digital solutions.",
+    "items": [
+      {
+        "icono": "bi-window-stack",
+        "titulo": "Web & App Development",
+        "texto": "We create smooth, scalable, and visually stunning digital platforms that enhance your online presence."
+      },
+      {
+        "icono": "bi-cloud",
+        "titulo": "Cloud Solutions",
+        "texto": "We migrate, manage, and optimize your cloud systems to ensure security, flexibility, and performance."
+      },
+      {
+        "icono": "bi-lightbulb",
+        "titulo": "Technology Consulting",
+        "texto": "We guide you in adopting innovative tools to grow your business with a solid digital strategy."
+      },
+      {
+        "icono": "bi-shield-lock",
+        "titulo": "Cybersecurity & Data Protection",
+        "texto": "We protect your company's critical information through audits, monitoring, and advanced security systems."
+      },
+      {
+        "icono": "bi-bar-chart-line",
+        "titulo": "Business Intelligence (BI & Data Analytics)",
+        "texto": "We transform your data into smart decisions with real-time dashboards and personalized analytics."
+      },
+      {
+        "icono": "bi-gear",
+        "titulo": "Digital Transformation",
+        "texto": "We drive your company's technological evolution with solutions that optimize processes and improve efficiency."
+      }
+    ]
+  },
+
+  "aboutHeaderSection": {
+    "smallText": "We build the digital future with you",
+    "title": "We are a passionate team creating technological experiences that drive businesses into the future.",
+    "highlight": "technological experiences",
+    "features": [
+      {
+        "icono": "bi-gem",
+        "titulo": "Passion for excellence",
+        "texto": "We strive for constant perfection"
+      },
+      {
+        "icono": "bi-people",
+        "titulo": "Commitment to every client",
+        "texto": "Your success is our goal"
+      },
+      {
+        "icono": "bi-shield-check",
+        "titulo": "Transparency and ethics",
+        "texto": "Trust in every step"
+      },
+      {
+        "icono": "bi-rocket-takeoff",
+        "titulo": "Technological evolution",
+        "texto": "Innovation drives us forward"
+      }
+    ]
+  },
+
+  "aboutTeamSection": {
+    "subtitle": "What We Represent",
+    "title": "We create strategic and reliable solutions that generate real impact.",
+    "cards": [
+      {
+        "icono": "bi-people",
+        "titulo": "Teamwork",
+        "texto": "We foster collaboration to achieve common goals."
+      },
+      {
+        "icono": "bi-lightbulb",
+        "titulo": "Continuous Innovation",
+        "texto": "We seek creative solutions that add real value."
+      },
+      {
+        "icono": "bi-shield-lock",
+        "titulo": "Trust & Transparency",
+        "texto": "We act with ethics and security in every project."
+      },
+      {
+        "icono": "bi-rocket-takeoff",
+        "titulo": "Measurable Results",
+        "texto": "Our services generate tangible impact for your business."
+      }
+    ]
+  },
+
+  "aboutExperiencesSection": {
+    "items": [
+      {
+        "value": 15,
+        "label": "projects completed"
+      },
+      {
+        "value": 10,
+        "label": "Clients"
+      },
+      {
+        "value": 10,
+        "label": "Years of experience"
+      },
+      {
+        "value": 99,
+        "prefix": "+",
+        "suffix": "%",
+        "label": "satisfaction"
+      }
+    ]
+  },
+
+  "aboutBannerSection": {
+    "title": "Ready to take your business to success?",
+    "description": "Our team of experts in development, design, and digital strategy works with you to transform ideas into results, ensuring excellence in every project.",
+    "button": "Let's Start"
+  },
+
+  "contactHeroSection": {
+    "title": "Contact Us",
+    "description": "Looking for a web development partner? You found it."
+  },
+
+  "contactProcessSection": {
+    "subtitle": "Professional & reliable",
+    "title": "Ready to boost your next big idea?",
+    "description": "You are one step closer to building your perfect product.",
+    "timelineTitle": "Methodology & process",
+    "timelineSteps": [
+      {
+        "number": 1,
+        "title": "Analysis & planning",
+        "description": "We define objectives, requirements, and strategy for your project."
+      },
+      {
+        "number": 2,
+        "title": "Design & prototyping",
+        "description": "We create wireframes and visual prototypes to validate the experience."
+      },
+      {
+        "number": 3,
+        "title": "Development & implementation",
+        "description": "We build the solution using best practices and technologies."
+      },
+      {
+        "number": 4,
+        "title": "Testing & launch",
+        "description": "We validate quality, security, and functionality before delivery."
+      }
+    ],
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company",
+      "subject": "Subject",
+      "subjectOptions": {
+        "webDevelopment": "Web Development & Applications",
+        "support": "Technical Support",
+        "ecommerce": "E-Commerce",
+        "other": "Other"
+      },
+      "message": "Message",
+      "submit": "Send message"
+    }
+  },
+
+  "faqSection": {
+    "title": "Frequently Asked Questions",
+    "description": "Everything you need to know before working with us.",
+    "items": [
+      {
+        "number": 1,
+        "question": "How long does it take to develop a website?",
+        "answer": "It depends on the size and complexity of the project, usually between 4 to 12 weeks."
+      },
+      {
+        "number": 2,
+        "question": "Do you offer post-launch maintenance?",
+        "answer": "Yes, we offer support and maintenance packages to ensure your website runs smoothly."
+      },
+      {
+        "number": 3,
+        "question": "Can you integrate e-commerce?",
+        "answer": "Absolutely, we develop full e-commerce solutions tailored to your needs."
+      },
+      {
+        "number": 4,
+        "question": "Are websites SEO optimized?",
+        "answer": "Yes, we implement SEO best practices from design to development."
+      },
+      {
+        "number": 5,
+        "question": "How do you handle website security?",
+        "answer": "We use secure protocols, encryption, and continuous monitoring to protect your data."
+      }
+    ]
+  },
+
+  "footer": {
+    "quick_links": "Quick Links",
+    "social": "Social Media",
+    "contact": "Contact",
+    "rights_reserved": "All rights reserved."
+  }
+}
