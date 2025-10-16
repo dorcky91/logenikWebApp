@@ -14,7 +14,7 @@ export const Footer = () => {
             <img
               loading="lazy"
               src="/images/logoGenikWhite.png"
-              height={80}
+              height={55}
               alt="Logo"
             />
             <p className="small color-light">
