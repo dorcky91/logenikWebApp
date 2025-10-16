@@ -15,7 +15,7 @@ export const Footer = () => {
               data-aos="fade-up"
               loading="lazy"
               src="/images/logoGenikWhite.png"
-              height={80}
+              height={55}
               alt="Logo"
             />
             <p data-aos="fade-up" className="small color-light">
