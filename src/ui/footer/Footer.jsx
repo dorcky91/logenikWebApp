@@ -7,44 +7,65 @@ export const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer style={{ backgroundColor: "rgba(var(--dark))" }}>
+    <footer data-aos="fade-up" style={{ backgroundColor: "rgba(var(--dark))" }}>
       <Container className="pt-5">
         <Row className="gy-4 text-white mb-5">
           <Col md="3">
             <img
+              data-aos="fade-up"
               loading="lazy"
               src="/images/logoGenikWhite.png"
               height={80}
               alt="Logo"
             />
-            <p className="small color-light">
+            <p data-aos="fade-up" className="small color-light">
               Transformamos ideas en soluciones digitales innovadoras. Tu socio
               tecnológico de confianza para el éxito empresarial.
             </p>
           </Col>
 
           <Col md="3" sm="4" xs="6">
-            <p>{t("footer.quick_links")}</p>
+            <p data-aos="fade-up">{t("footer.quick_links")}</p>
             <div className="d-flex flex-column gap-2">
-              <Link to="/">{t("menu.home")}</Link>
-              <Link to="/services">{t("menu.services")}</Link>
-              <Link to="/about">{t("menu.about")}</Link>
-              <Link to="/contact">{t("menu.contact")}</Link>
+              <Link data-aos="fade-up" to="/">
+                {t("menu.home")}
+              </Link>
+              <Link data-aos="fade-up" to="/services">
+                {t("menu.services")}
+              </Link>
+              <Link data-aos="fade-up" to="/about">
+                {t("menu.about")}
+              </Link>
+              <Link data-aos="fade-up" to="/contact">
+                {t("menu.contact")}
+              </Link>
             </div>
           </Col>
 
           <Col md="3" sm="4" xs="6">
-            <p className="text-white">Legal</p>
+            <p data-aos="fade-up" className="text-white">
+              Legal
+            </p>
             <div className="d-flex flex-column gap-2">
-              <Link to="/">Política de Privacidad</Link>
-              <Link to="/">Términos de Servicio</Link>
-              <Link to="/">FAQ</Link>
+              <Link data-aos="fade-up" to="/">
+                Política de Privacidad
+              </Link>
+              <Link data-aos="fade-up" to="/">
+                Términos de Servicio
+              </Link>
+              <Link data-aos="fade-up" to="/">
+                FAQ
+              </Link>
             </div>
           </Col>
 
           <Col md="3" sm="4" xs="6">
-            <p className="text-white">{t("footer.contact")}</p>
-            <div className="d-flex align-items-center gap-1 icon-link">
+            <p data-aos="fade-up" className="text-white">
+              {t("footer.contact")}
+            </p>
+            <div
+              data-aos="fade-up"
+              className="d-flex align-items-center gap-1 icon-link">
               <div style={{ width: "25px" }}>
                 <i className="bi bi-envelope small"></i>{" "}
               </div>
@@ -52,7 +73,9 @@ export const Footer = () => {
                 admin@logenik.com
               </a>
             </div>
-            <div className="d-flex align-items-center gap-1 icon-link">
+            <div
+              data-aos="fade-up"
+              className="d-flex align-items-center gap-1 icon-link">
               <div style={{ width: "25px" }}>
                 <i className="bi bi-telephone small"></i>{" "}
               </div>

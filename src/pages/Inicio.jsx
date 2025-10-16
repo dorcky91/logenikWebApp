@@ -160,16 +160,22 @@ export const Inicio = () => {
                   {contenidos.map((c, index) => (
                     <div key={index} className="mb-5 pb-4">
                       <div className="mb-3">
-                        <h4 className="fw-bold">{c.title}</h4>
+                        <h4 data-aos="fade-up" className="fw-bold">
+                          {c.title}
+                        </h4>
                         {c.paragraphs.map((p, i) => (
-                          <p key={i} className="color-dark-65">
+                          <p
+                            data-aos="fade-up"
+                            key={i}
+                            className="color-dark-65">
                             {p}
                           </p>
                         ))}
-                        <strong>{c.strong}</strong>
+                        <strong data-aos="fade-up">{c.strong}</strong>
                       </div>
 
                       <div
+                        data-aos="zoom-in"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ duration: 0.6, ease: "easeInOut" }}>
@@ -183,6 +189,8 @@ export const Inicio = () => {
                       <Row className="gy-3 mt-3">
                         <Col xs="6">
                           <img
+                            data-aos="zoom-in"
+                            data-aos-delay={index * 100}
                             loading="lazy"
                             src={c.imgSecondario}
                             alt=""
@@ -192,6 +200,8 @@ export const Inicio = () => {
                         </Col>
                         <Col xs="6">
                           <img
+                            data-aos="zoom-in"
+                            data-aos-delay={index * 200}
                             loading="lazy"
                             src={c.imgTerciario}
                             alt=""
@@ -258,6 +268,7 @@ export const Inicio = () => {
                 </Col>
                 <Col md="6">
                   <div
+                    data-aos="zoom-in"
                     key={contenidos[activo].id}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -271,6 +282,7 @@ export const Inicio = () => {
 
                   <div className="d-flex gap-3 mt-3">
                     <img
+                      data-aos="zoom-in"
                       loading="lazy"
                       src={contenidos[activo].imgSecondario}
                       alt=""
@@ -278,6 +290,8 @@ export const Inicio = () => {
                       height={150}
                     />
                     <img
+                      data-aos="zoom-in"
+                      data-aos-delay={100}
                       loading="lazy"
                       src={contenidos[activo].imgTerciario}
                       alt=""
@@ -295,12 +309,13 @@ export const Inicio = () => {
           <Container className="py-5">
             <Row className="gy-5 mb-4">
               <Col lg="6" md="8" className="mx-auto">
-                <h2>{t("projectsSection.title")}</h2>
+                <h2 data-aos="fade-up">{t("projectsSection.title")}</h2>
               </Col>
               {showViewSm ? (
                 <Col md="12">
                   {projects.map((p) => (
                     <div
+                      data-aos="fade-up"
                       key={p.id}
                       className="mb-4 card card-project rounded shadow">
                       <img
@@ -329,6 +344,7 @@ export const Inicio = () => {
                     style={{ gridTemplateColumns: gridTemplate }}>
                     {projects.map((p) => (
                       <div
+                        data-aos="fade-up"
                         key={p.id}
                         className={`project-item ${
                           active === p.id ? "active" : ""
@@ -368,7 +384,7 @@ export const Inicio = () => {
                   title={t("testimoniosSection.title")}
                   isCentered={true}
                 />
-                <p className="color-dark-65 mt-3">
+                <p data-aos="fade-up" className="color-dark-65 mt-3">
                   {t("testimoniosSection.description")}
                 </p>
               </Col>
@@ -376,9 +392,12 @@ export const Inicio = () => {
               {showViewSm ? (
                 <Col md="12">
                   <Row className="gy-4">
-                    {testimonios.map((item) => (
+                    {testimonios.map((item, index) => (
                       <Col md="4" key={item.id}>
-                        <Card className="border-0 py-4 h-100 shadow-sm">
+                        <Card
+                          data-aos="zoom-in"
+                          data-aos-delay={index * 100}
+                          className="border-0 py-4 h-100 shadow-sm">
                           <Card.Body>
                             <div className="color-accent mb-4 small">
                               {[...Array(5)].map((_, i) => (

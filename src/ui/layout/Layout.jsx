@@ -22,9 +22,16 @@ export const Layout = () => {
           style={{ backgroundColor: "rgb(var(--accent))" }}>
           <Row className="p-5 text-center">
             <Col md="9" lg="6" className="mx-auto">
-              <h1 className="text-white">{t("cardContact.ctaTitle")}</h1>
-              <p className="text-white mb-5">{t("cardContact.ctaText")}</p>
-              <Link to="/contact" className="btn btn-white-accent">
+              <h1 data-aos="fade-up" className="text-white">
+                {t("cardContact.ctaTitle")}
+              </h1>
+              <p data-aos="fade-up" className="text-white mb-5">
+                {t("cardContact.ctaText")}
+              </p>
+              <Link
+                data-aos="fade-up"
+                to="/contact"
+                className="btn btn-white-accent">
                 {t("cardContact.ctaButton")}
               </Link>
             </Col>
