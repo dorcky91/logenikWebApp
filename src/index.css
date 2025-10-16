@@ -133,8 +133,6 @@ h6 {
 }
 
 .projects-section {
-  /* background-color: #1a1f36; */
-  /* color: #fff; */
   padding: 4rem 2rem;
   text-align: center;
 }
@@ -350,6 +348,10 @@ input.form-control,
 }
 
 @media (max-width: 767.98px) {
+  .projects-section {
+    padding-inline: 0;
+  }
+
   .card-queHacemos {
     position: absolute !important;
     top: 50%;

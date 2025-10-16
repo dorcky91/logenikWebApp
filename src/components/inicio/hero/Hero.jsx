@@ -15,7 +15,7 @@ export const Hero = () => {
   const { t } = useTranslation(); // 👈 inicializa traducción
 
   return (
-    <motion.header {...fadeInUp} className="py-5">
+    <motion.header {...fadeInUp} className="pb-5 pt-2 pt-md-5">
       <Container>
         <Row className="gy-5 align-items-center">
           <Col lg="5" md="6">
