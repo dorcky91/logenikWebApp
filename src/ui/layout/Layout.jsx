@@ -13,7 +13,7 @@ export const Layout = () => {
   return (
     <>
       <ScrollTop />
-      {/* <Menu /> */}
+      <Menu />
       <Outlet />
 
       <section className="py-sm-5 bg-white">
