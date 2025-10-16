@@ -109,10 +109,8 @@ export const Inicio = () => {
           <Container className="py-5 text-center text-white">
             <Row className="gy-5 mb-4">
               <Col lg="6" md="8" className="mx-auto">
-                {/* <ScrollFly direction="left" distance={120}> */}
                 <h1 className="text-white">{t("whyUs.title")}</h1>
                 <p>{t("whyUs.text")}</p>
-                {/* </ScrollFly> */}
               </Col>
               <Col md="12">
                 <Row className="gy-4">
