@@ -36,7 +36,7 @@ export const Layout = () => {
         phoneNumber="+523333802053"
         message="Hola! Quisiera más información sobre sus servicios"
       />
-      <LanguageSwitcher />
+      {/* <LanguageSwitcher /> */}
 
       <Footer />
     </>

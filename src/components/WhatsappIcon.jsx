@@ -9,11 +9,11 @@ const WhatsAppIcon = ({
       rel="noopener noreferrer"
       style={{
         position: "fixed",
-        bottom: "20px",
+        bottom: "70px",
         right: "20px",
         zIndex: 9999,
-        width: "60px",
-        height: "60px",
+        width: "50px",
+        height: "50px",
         borderRadius: "50%",
         backgroundColor: "#25D366",
         display: "flex",
@@ -25,7 +25,7 @@ const WhatsAppIcon = ({
       }}
       onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.1)")}
       onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}>
-      <i className="bi bi-whatsapp fs-3" style={{ color: "white" }}></i>
+      <i className="bi bi-whatsapp fs-5" style={{ color: "white" }}></i>
     </a>
   );
 };

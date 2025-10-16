@@ -183,6 +183,7 @@ export const Contacto = () => {
                 <p className="color-dark-65">{t("faqSection.description")}</p>
 
                 <img
+                  loading="lazy"
                   src="https://img.freepik.com/premium-photo/question-tech-brainstorming-problem_218381-42062.jpg"
                   alt="FAQ"
                   className="object-fit-cover rounded-3 w-md-75 w-100"

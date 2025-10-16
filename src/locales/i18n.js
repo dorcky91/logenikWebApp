@@ -5,7 +5,7 @@ import { resources } from "../locales/idioma";
 i18n.use(initReactI18next).init({
   resources,
   lng: "es", // idioma por defecto
-  fallbackLng: "en", // si falta traducción, usa inglés
+  fallbackLng: "es", // si falta traducción, usa español
   interpolation: {
     escapeValue: false, // React ya protege contra XSS
   },

@@ -289,6 +289,60 @@ input.form-control,
   box-shadow: none;
 }
 
+.card-project {
+  height: 300px;
+  /* border: none; */
+  transition: all 300ms ease-in-out;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+
+  .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+    transition: all 300ms ease-in-out;
+  }
+
+  .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease-in-out;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+
+    p {
+      display: none;
+      text-transform: none;
+    }
+  }
+
+  &:hover {
+    .card-img {
+      transform: scale(1.2);
+      filter: brightness(0.2);
+    }
+
+    .card-overlay {
+      color: rgb(var(--light));
+      opacity: 1;
+
+      p {
+        display: block;
+      }
+    }
+  }
+}
+
 @media (max-width: 991.98px) {
   .contact-card {
     transform: translateY(0);
