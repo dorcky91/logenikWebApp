@@ -52,6 +52,7 @@ export const About = () => {
             <Col md="6">
               <div className="h-100">
                 <img
+                  loading="lazy"
                   src="https://img.freepik.com/free-photo/team-software-engineers-doing-brainstorming-office_482257-123976.jpg"
                   alt=""
                   className="w-100 object-fit-cover rounded-3"
@@ -81,6 +82,7 @@ export const About = () => {
                 <Col lg={6}>
                   <div className="h-100">
                     <img
+                      loading="lazy"
                       height={350}
                       src="https://img.freepik.com/premium-photo/new-startup-project-online_926199-4079568.jpg"
                       alt=""

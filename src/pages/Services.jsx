@@ -4,7 +4,6 @@ import { Link } from "react-router";
 import AccentTag from "../ui/AccentTag";
 import LazyVideo from "../components/LazyVideo";
 import { useTranslation } from "react-i18next";
-import { servicios } from "../utils/helpers";
 
 export const Services = () => {
   const { t } = useTranslation();
@@ -57,15 +56,17 @@ export const Services = () => {
           <Container className="py-5">
             <Row className="gy-4 align-items-center">
               <Col md="6" lg="5" className="order-1 order-md-0">
-                <div className="d-flex gap-2">
-                  <div className="d-flex gap-2 flex-column justify-content-center">
+                <div className="d-flex flex-column flex-md-row gap-2">
+                  <div className="d-flex gap-2 flex-md-column justify-content-center order-1 order-md-0">
                     <img
+                      loading="lazy"
                       src="https://img.freepik.com/premium-photo/hand-holding-light-bulb-is-symbol-intellectual-light-creative-education-concept_557176-1107.jpg"
                       alt=""
                       className="w-100 object-fit-cover rounded-3"
                       height={150}
                     />
                     <img
+                      loading="lazy"
                       src="https://img.freepik.com/premium-photo/online-briefing-brainstorming-group-remote-work-concept-with-young-man-sitting-office-chair-looking-digital-tablet-screen-virtual-profile-picture-windows-with-colleagues-he-contacted_670147-41.jpg"
                       alt=""
                       className="w-100 object-fit-cover rounded-3"
@@ -138,6 +139,7 @@ export const Services = () => {
                   <Col md="5 mx-auto" key={index}>
                     <div className="position-relative bg-light-main rounded-3 border border-white border-4">
                       <img
+                        loading="lazy"
                         src={item.image}
                         alt={item.title}
                         className="w-100 object-fit-cover rounded-3"
@@ -228,7 +230,7 @@ export const Services = () => {
           <Container className="py-5">
             <Row className="gy-5">
               <Col xs="12" className="mb-5">
-                <Row className="gy-4">
+                <Row className="gy-5">
                   <Col md="6" lg="3" id="metodology-section">
                     <div className="d-flex align-items-center gap-3">
                       <div>
@@ -297,6 +299,7 @@ export const Services = () => {
               </Col>
               <Col md="10" lg="7" className="mx-auto">
                 <img
+                  loading="lazy"
                   height={400}
                   src="https://img.freepik.com/free-photo/business-chart-visual-graphics-report-concept_53876-167093.jpg"
                   alt=""

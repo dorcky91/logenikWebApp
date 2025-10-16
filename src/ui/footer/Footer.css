@@ -1,0 +1,44 @@
+footer {
+  .color-light {
+    color: rgba(var(--light), 0.5);
+  }
+
+  a {
+    text-decoration: none;
+    color: rgba(var(--light), 0.5);
+    font-size: 0.875em;
+
+    &:hover {
+      color: rgb(var(--accent));
+    }
+  }
+
+  .icon-link {
+    color: rgba(var(--light), 0.5);
+
+    &:hover {
+      color: rgb(var(--accent));
+    }
+  }
+
+  .border-top {
+    border-color: rgba(var(--light), 0.2) !important;
+  }
+
+  .social-media {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 5px;
+    background-color: #1e2939;
+    color: rgba(var(--light));
+    font-size: 1.2em;
+
+    &:hover {
+      background-color: rgba(var(--accent), 0.8);
+      color: rgba(var(--light));
+    }
+  }
+}
