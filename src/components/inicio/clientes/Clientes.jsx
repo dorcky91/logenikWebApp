@@ -1,5 +1,3 @@
-import { motion } from "motion/react";
-import { cascadeUp } from "../../../utils/helpers";
 import "./Clientes.css";
 
 const clients = [
@@ -35,8 +33,7 @@ export const Clientes = () => {
       <div className="animate-scroll">
         {/* Duplicamos los logos para scroll infinito */}
         {clients.concat(clients).map((client, idx) => (
-          <motion.img
-            {...cascadeUp(idx)}
+          <img
             key={idx}
             src={client.logo}
             alt={client.name}

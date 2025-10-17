@@ -52,11 +52,11 @@ export const Inicio = () => {
     <>
       <Hero />
       <main>
-        <section id="clientes" className="py-5 bg-white">
+        {/* <section id="clientes" className="py-5 bg-white">
           <Container>
             <Clientes />
           </Container>
-        </section>
+        </section> */}
 
         <section className="py-5">
           <Container className="py-5">

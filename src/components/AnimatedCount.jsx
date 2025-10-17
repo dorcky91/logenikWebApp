@@ -2,12 +2,7 @@ import { motion, useMotionValue, useTransform, animate } from "framer-motion";
 import { useEffect, useState, useRef } from "react";
 import { useInView } from "framer-motion";
 
-export const AnimatedCount = ({
-  value,
-  suffix = "+",
-  prefix = "",
-  cascadeProps,
-}) => {
+export const AnimatedCount = ({ value, suffix = "+", prefix = "" }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true }); // solo dispara la animación una vez
   const motionValue = useMotionValue(0);
@@ -32,14 +27,10 @@ export const AnimatedCount = ({
   }, [isInView, value, rounded, motionValue]);
 
   return (
-    <motion.h3
-      ref={ref}
-      {...cascadeProps}
-      className="text-white fw-bold"
-      style={{ fontSize: "3.5rem" }}>
+    <h3 ref={ref} className="text-white fw-bold" style={{ fontSize: "3.5rem" }}>
       {prefix}
       {displayValue}
       {suffix}
-    </motion.h3>
+    </h3>
   );
 };
