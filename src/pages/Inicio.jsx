@@ -58,7 +58,7 @@ export const Inicio = () => {
           </Container>
         </section> */}
 
-        <section className="py-5">
+        {/* <section className="py-5">
           <Container className="py-5">
             <Row className="gy-4">
               <Col lg="5" className="order-1 order-lg-0">
@@ -515,7 +515,7 @@ export const Inicio = () => {
               )}
             </Row>
           </Container>
-        </section>
+        </section> */}
       </main>
     </>
   );
