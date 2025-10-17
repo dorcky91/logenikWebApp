@@ -52,13 +52,13 @@ export const Inicio = () => {
     <>
       {/* <Hero /> */}
       <main>
-        {/* <section id="clientes" className="py-5 bg-white">
+        <section id="clientes" className="py-5 bg-white">
           <Container>
             <Clientes />
           </Container>
-        </section> */}
+        </section>
 
-        {/* <section className="py-5">
+        <section className="py-5">
           <Container className="py-5">
             <Row className="gy-4">
               <Col lg="5" className="order-1 order-lg-0">
@@ -151,11 +151,11 @@ export const Inicio = () => {
             </Row>
           </Container>
         </section>
-*/}
+
         <section className="py-5">
           <Container className="py-5">
             {showViewSm ? (
-              <Row className="gx-5 gy-4">
+              <Row className="gap-5">
                 <Col sm="12">
                   {contenidos.map((c, index) => (
                     <div key={index} className="mb-5 pb-4">
