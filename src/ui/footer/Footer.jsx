@@ -109,7 +109,7 @@ export const Footer = () => {
               href="#"
               target="_blank"
               rel="noopener noreferrer">
-              <i className="bi bi-twitter"></i>
+              <i className="bi bi-twitter-x"></i>
             </a>
             <a
               className="social-media"
