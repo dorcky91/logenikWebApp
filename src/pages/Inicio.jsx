@@ -151,7 +151,7 @@ export const Inicio = () => {
             </Row>
           </Container>
         </section>
-
+*/}
         <section className="py-5">
           <Container className="py-5">
             {showViewSm ? (
@@ -304,7 +304,7 @@ export const Inicio = () => {
             )}
           </Container>
         </section>
- */}
+
         <section className="projects-section py-5 bg-white" id="proyectos">
           <Container className="py-5">
             <Row className="gy-5 mb-4">
