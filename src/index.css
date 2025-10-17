@@ -386,6 +386,7 @@ input.form-control,
   }
 
   #whatsapp-icon {
-    bottom: 20px;
+    right: 15px;
+    bottom: 15px;
   }
 }

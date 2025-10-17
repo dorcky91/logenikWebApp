@@ -19,8 +19,8 @@ export const About = () => {
 
   return (
     <>
-      <header className="py-5">
-        <Container className="py-5">
+      <header className="pb-5 pt-2 pt-md-5">
+        <Container>
           <Row className="gy-4 align-items-lg-center">
             {/* Texto principal */}
             <Col lg={7} md={9}>
