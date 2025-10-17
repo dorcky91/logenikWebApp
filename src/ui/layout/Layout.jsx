@@ -20,7 +20,7 @@ export const Layout = () => {
         <Container
           className="py-5 rounded-4 cta"
           style={{ backgroundColor: "rgb(var(--accent))" }}>
-          <Row className="p-5 text-center">
+          <Row className="p-md-5 text-center">
             <Col md="9" lg="6" className="mx-auto">
               <h1 data-aos="fade-up" className="text-white">
                 {t("cardContact.ctaTitle")}
