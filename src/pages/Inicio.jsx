@@ -374,6 +374,7 @@ export const Inicio = () => {
             </Row>
           </Container>
         </section>
+ */}
 
         <section className="py-5 overflow-hidden">
           <Container className="py-5">
@@ -515,7 +516,7 @@ export const Inicio = () => {
               )}
             </Row>
           </Container>
-        </section> */}
+        </section>
       </main>
     </>
   );
