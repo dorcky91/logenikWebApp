@@ -50,7 +50,8 @@ export const Inicio = () => {
 
   return (
     <>
-      {/* <Hero /> */}
+      <Hero />
+
       <main>
         <section id="clientes" className="py-5 bg-white">
           <Container>

@@ -37,8 +37,6 @@ export const Clientes = () => {
             key={idx}
             src={client.logo}
             alt={client.name}
-            width={200}
-            height={200}
             className="client-logo"
           />
         ))}

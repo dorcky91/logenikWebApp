@@ -1,12 +1,8 @@
-/* Contenedor principal: oculta logos que se salen */
 .carousel-container {
   overflow: hidden;
   width: 100%;
-  /* padding: 20px 0; */
-  /* background-color: #f9f9f9; opcional */
 }
 
-/* Contenedor de logos con scroll continuo */
 .animate-scroll {
   display: flex;
   gap: 20px;
@@ -29,14 +25,20 @@
   }
 }
 
-/* Estilo de los logos */
 .client-logo {
   object-fit: contain;
   transition: transform 0.3s;
   cursor: pointer;
+  width: 200px;
 }
 
-/* Efecto hover de los logos */
 .client-logo:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 575.98px) {
+  .client-logo {
+    width: 100px;
+    height: auto;
+  }
 }
