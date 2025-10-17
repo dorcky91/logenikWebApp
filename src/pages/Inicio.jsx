@@ -155,7 +155,7 @@ export const Inicio = () => {
         <section className="py-5">
           <Container className="py-5">
             {showViewSm ? (
-              <Row className="gap-5">
+              <Row className="gy-5">
                 <Col sm="12">
                   {contenidos.map((c, index) => (
                     <div key={index} className="mb-5 pb-4">
@@ -215,7 +215,7 @@ export const Inicio = () => {
                 </Col>
               </Row>
             ) : (
-              <Row className="gx-5 gy-4">
+              <Row className="gy-4">
                 <Col md="6">
                   {contenidos.map((c, index) => (
                     <div
