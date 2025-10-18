@@ -22,11 +22,7 @@ export function Menu() {
   };
 
   return (
-    <Navbar
-      expand="md"
-      sticky="top"
-      id="menu-navigation"
-      className="shadow-sm shadow-md-none bg-white">
+    <Navbar expand="md" sticky="top" id="menu-navigation">
       <Container
         fluid="sm"
         className="d-flex align-items-center justify-content-between">
