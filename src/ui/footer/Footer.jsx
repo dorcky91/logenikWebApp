@@ -19,8 +19,7 @@ export const Footer = () => {
               alt="Logo"
             />
             <p data-aos="fade-up" className="small color-light">
-              Transformamos ideas en soluciones digitales innovadoras. Tu socio
-              tecnológico de confianza para el éxito empresarial.
+              {t("footer.description")}
             </p>
           </Col>
 
@@ -44,17 +43,17 @@ export const Footer = () => {
 
           <Col md="3" sm="4" xs="6">
             <p data-aos="fade-up" className="text-white">
-              Legal
+              {t("footer.legal.title")}
             </p>
             <div className="d-flex flex-column gap-2">
               <Link data-aos="fade-up" to="/">
-                Política de Privacidad
+                {t("footer.legal.privacy")}
               </Link>
               <Link data-aos="fade-up" to="/">
-                Términos de Servicio
+                {t("footer.legal.terms")}
               </Link>
               <Link data-aos="fade-up" to="/">
-                FAQ
+                {t("footer.legal.faq")}
               </Link>
             </div>
           </Col>

@@ -27,7 +27,7 @@ export const AnimatedCount = ({ value, suffix = "+", prefix = "" }) => {
   }, [isInView, value, rounded, motionValue]);
 
   return (
-    <h3 ref={ref} className="text-white fw-bold" style={{ fontSize: "3.5rem" }}>
+    <h3 ref={ref} className="text-white fw-bold animated-number">
       {prefix}
       {displayValue}
       {suffix}

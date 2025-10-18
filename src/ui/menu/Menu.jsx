@@ -1,12 +1,12 @@
 import { Link, NavLink } from "react-router";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-import { useTranslation } from "react-i18next"; // 👈 Importante
+import { useTranslation } from "react-i18next";
 import logoGenik from "/images/logogenik.png";
 import "./Menu.css";
 
 export function Menu() {
-  const { t, i18n } = useTranslation(); // 👈 Hook para traducir textos
+  const { t, i18n } = useTranslation();
 
   const handleClick = () => {
     const nav = document.getElementById("navbar");
@@ -22,8 +22,15 @@ export function Menu() {
   };
 
   return (
-    <Navbar expand="md" sticky="top" id="menu-navigation">
-      <Container fluid="sm">
+    <Navbar
+      expand="md"
+      sticky="top"
+      id="menu-navigation"
+      className="shadow-sm shadow-md-none bg-white">
+      <Container
+        fluid="sm"
+        className="d-flex align-items-center justify-content-between">
+        {/* ✅ LOGO */}
         <Link to="/">
           <img
             height={45}
@@ -38,9 +45,27 @@ export function Menu() {
             className="d-none d-md-inline"
           />
         </Link>
-        <Navbar.Toggle aria-controls="navbar" />
+
+        {/* ✅ BOTÓN HAMBURGUESA + SELECT IDIOMAS (solo móvil) */}
+        <div className="d-flex align-items-center gap-2 d-md-none">
+          <Navbar.Toggle aria-controls="navbar" />
+          <select
+            className="form-select form-select-sm lang-select-mobile"
+            value={i18n.language}
+            onChange={handleLanguageChange}>
+            {languages.map((lng) => (
+              <option key={lng.code} value={lng.code}>
+                {lng.flag}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        {/* ✅ MENÚ DESPLEGABLE */}
         <Navbar.Collapse id="navbar" className="pt-4 pt-md-0">
-          <ul id="menu-links" className="navbar-nav ms-auto">
+          <ul
+            id="menu-links"
+            className="navbar-nav ms-auto align-items-md-center">
             <li className="nav-item">
               <NavLink onClick={handleClick} to="/" className="nav-link">
                 {t("menu.home")}
@@ -64,14 +89,16 @@ export function Menu() {
                 {t("menu.contact")}
               </NavLink>
             </li>
-            <li className="nav-item d-flex align-items-center">
+
+            {/* ✅ SELECT IDIOMAS SOLO EN ESCRITORIO */}
+            <li className="nav-item d-none d-md-flex align-items-center ms-3">
               <select
-                className="form-select"
+                className="form-select form-select-sm lang-select-desktop"
                 value={i18n.language}
                 onChange={handleLanguageChange}>
                 {languages.map((lng) => (
-                  <option key={lng.code} value={lng.code} title={lng.name}>
-                    {lng.flag}
+                  <option key={lng.code} value={lng.code}>
+                    {lng.flag} {lng.name}
                   </option>
                 ))}
               </select>
@@ -84,9 +111,10 @@ export function Menu() {
 }
 
 const languages = [
-  { code: "es", flag: "🇪🇸", name: "Español" },
+  { code: "es", flag: "🇲🇽", name: "Español (México)" },
   { code: "en", flag: "🇺🇸", name: "English" },
   { code: "fr", flag: "🇫🇷", name: "Français" },
   { code: "zh", flag: "🇨🇳", name: "中文" },
   { code: "ht", flag: "🇭🇹", name: "Kreyòl Ayisyen" },
+  // { code: "pt", flag: "🇧🇷", name: "Português" },
 ];

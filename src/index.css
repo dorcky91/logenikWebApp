@@ -132,6 +132,15 @@ h6 {
   background-color: #fff;
 }
 
+.card-hero-home {
+  width: 200px;
+  outline: 10px solid #f7f8f9;
+}
+
+.animated-number {
+  font-size: 3.5rem;
+}
+
 .projects-section {
   padding: 4rem 2rem;
   text-align: center;
@@ -388,5 +397,14 @@ input.form-control,
   #whatsapp-icon {
     right: 15px;
     bottom: 15px;
+  }
+
+  .card-hero-home {
+    width: 190px;
+    outline: 5px solid #f7f8f9;
+  }
+
+  .animated-number {
+    font-size: 1.5rem;
   }
 }

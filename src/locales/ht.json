@@ -101,6 +101,54 @@
     ]
   },
 
+  "metodology": {
+    "subtitle": "Jesyon estratejik",
+    "title": "Transfòme operasyon ou ak",
+    "highlight": "metodoloji",
+    "title_end": "ki pwouve",
+    "image_alt": "Grafik jesyon biznis",
+    "list": [
+      {
+        "title": "Kiltiv ajil aplike pou ekip IT",
+        "text": "Aplike sprint, tablo Kanban ak validasyon kontinyèl pou akselere rezilta san pèdi kontwòl."
+      },
+      {
+        "title": "Sèvis IT avèk apwòch ITIL",
+        "text": "Estandardize pwosesis yo, amelyore sèvis kliyan epi redui tan repons ak pratik rekonèt mondyalman."
+      },
+      {
+        "title": "Kontwòl total sou chak faz pwojè a",
+        "text": "Planifye, dokimante ak egzekite avèk presizyon, asire livrezon yo aliyen ak kondisyon inisyal yo."
+      }
+    ],
+    "items": [
+      {
+        "icon": "bi-journal-text",
+        "bgClass": "bg-primary",
+        "title": "Learn",
+        "text": "Akwire konpetans dijital itil ak resous klè ak aplikab."
+      },
+      {
+        "icon": "bi-lightning",
+        "bgClass": "bg-accent",
+        "title": "Agile",
+        "text": "Itere vit, kolabore pi byen epi adapte solisyon an tan reyèl."
+      },
+      {
+        "icon": "bi-diagram-3",
+        "bgClass": "bg-variado1",
+        "title": "Waterfall",
+        "text": "Defini faz sekansyèl pou pwojè ki gen kondisyon byen estriktire."
+      },
+      {
+        "icon": "bi-hdd-network",
+        "bgClass": "bg-variado2",
+        "title": "ITIL",
+        "text": "Jere sèvis IT ak pwosesis estandadize ak amelyorasyon kontinyèl."
+      }
+    ]
+  },
+
   "projectsSection": {
     "title": "Pwojè devlope resamman",
     "projects": [
@@ -439,9 +487,16 @@
   },
 
   "footer": {
-    "quick_links": "Lyen rapid",
+    "quick_links": "Lyèn rapid",
     "social": "Rezo sosyal",
     "contact": "Kontak",
-    "rights_reserved": "Tout dwa rezève."
+    "rights_reserved": "Tout dwa rezève.",
+    "description": "Nou transfòme lide yo an solisyon dijital inovatè. Patnè teknolojik ou ka fè konfyans pou siksè biznis ou.",
+    "legal": {
+      "title": "Legal",
+      "privacy": "Politik sou vi prive",
+      "terms": "Tèm Sèvis",
+      "faq": "Kesyon yo poze souvan"
+    }
   }
 }

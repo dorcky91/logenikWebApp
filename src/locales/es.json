@@ -101,6 +101,54 @@
     ]
   },
 
+  "metodology": {
+    "subtitle": "Gestión estratégica",
+    "title": "Transforma tu operación con",
+    "highlight": "metodologías",
+    "title_end": "probadas",
+    "image_alt": "Gráfico de gestión empresarial",
+    "list": [
+      {
+        "title": "Cultura ágil aplicada a equipos TI",
+        "text": "Implementa sprints, tableros Kanban y validación continua para acelerar resultados sin perder control."
+      },
+      {
+        "title": "Servicios TI con enfoque ITIL",
+        "text": "Estandariza procesos, mejora la atención al cliente y reduce tiempos de respuesta con prácticas reconocidas globalmente."
+      },
+      {
+        "title": "Control total sobre cada fase del proyecto",
+        "text": "Planifica, documenta y ejecuta con precisión, asegurando entregas alineadas a los requisitos iniciales."
+      }
+    ],
+    "items": [
+      {
+        "icon": "bi-journal-text",
+        "bgClass": "bg-primary",
+        "title": "Learn",
+        "text": "Adquiere habilidades digitales útiles con recursos claros y aplicables."
+      },
+      {
+        "icon": "bi-lightning",
+        "bgClass": "bg-accent",
+        "title": "Agile",
+        "text": "Itera rápido, colabora mejor y adapta soluciones en tiempo real."
+      },
+      {
+        "icon": "bi-diagram-3",
+        "bgClass": "bg-variado1",
+        "title": "Waterfall",
+        "text": "Define fases secuenciales para proyectos con requisitos bien estructurados."
+      },
+      {
+        "icon": "bi-hdd-network",
+        "bgClass": "bg-variado2",
+        "title": "ITIL",
+        "text": "Gestiona servicios TI con procesos estandarizados y mejora continua."
+      }
+    ]
+  },
+
   "projectsSection": {
     "title": "Proyectos desarrollados recientemente",
     "projects": [
@@ -442,6 +490,13 @@
     "quick_links": "Enlaces rápidos",
     "social": "Redes sociales",
     "contact": "Contacto",
-    "rights_reserved": "Todos los derechos reservados."
+    "rights_reserved": "Todos los derechos reservados.",
+    "description": "Transformamos ideas en soluciones digitales innovadoras. Tu socio tecnológico de confianza para el éxito empresarial.",
+    "legal": {
+      "title": "Legal",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "faq": "Preguntas Frecuentes"
+    }
   }
 }

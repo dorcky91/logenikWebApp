@@ -4,10 +4,22 @@ import { Link } from "react-router";
 import AccentTag from "../ui/AccentTag";
 import LazyVideo from "../components/LazyVideo";
 import { useTranslation } from "react-i18next";
+import { useEffect, useState } from "react";
 
 export const Services = () => {
   const { t } = useTranslation();
   const servicios = t("servicesOffered.items", { returnObjects: true });
+
+  const [showViewSm, setShowViewSm] = useState(false);
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 767.98px)");
+    const handleChange = (e) => setShowViewSm(e.matches);
+
+    mediaQuery.addEventListener("change", handleChange);
+    setShowViewSm(mediaQuery.matches);
+
+    return () => mediaQuery.removeEventListener("change", handleChange);
+  }, []);
 
   return (
     <>
@@ -56,31 +68,62 @@ export const Services = () => {
           <Container className="py-5">
             <Row className="gy-4 align-items-center">
               <Col md="6" lg="5" className="order-1 order-md-0">
-                <div className="d-flex flex-column flex-md-row gap-2">
-                  <div className="d-flex gap-2 flex-md-column justify-content-center order-1 order-md-0">
-                    <img
-                      loading="lazy"
-                      src="https://img.freepik.com/premium-photo/hand-holding-light-bulb-is-symbol-intellectual-light-creative-education-concept_557176-1107.jpg"
-                      alt=""
-                      className="w-100 object-fit-cover rounded-3"
-                      height={150}
-                    />
-                    <img
-                      loading="lazy"
-                      src="https://img.freepik.com/premium-photo/online-briefing-brainstorming-group-remote-work-concept-with-young-man-sitting-office-chair-looking-digital-tablet-screen-virtual-profile-picture-windows-with-colleagues-he-contacted_670147-41.jpg"
-                      alt=""
-                      className="w-100 object-fit-cover rounded-3"
-                      height={150}
+                {showViewSm ? (
+                  <>
+                    <div>
+                      <LazyVideo
+                        src="https://res.cloudinary.com/djlxlz9y3/video/upload/v1760410412/Technology_v8siv9.mp4"
+                        height={350}
+                        className="rounded-3"
+                      />
+                    </div>
+                    <Row className="gy-3 mt-2">
+                      <Col xs="6">
+                        <img
+                          loading="lazy"
+                          src="https://img.freepik.com/premium-photo/hand-holding-light-bulb-is-symbol-intellectual-light-creative-education-concept_557176-1107.jpg"
+                          alt=""
+                          className="w-100 object-fit-cover rounded-3"
+                          height={150}
+                        />
+                      </Col>
+                      <Col xs="6">
+                        <img
+                          loading="lazy"
+                          src="https://img.freepik.com/premium-photo/online-briefing-brainstorming-group-remote-work-concept-with-young-man-sitting-office-chair-looking-digital-tablet-screen-virtual-profile-picture-windows-with-colleagues-he-contacted_670147-41.jpg"
+                          alt=""
+                          className="w-100 object-fit-cover rounded-3"
+                          height={150}
+                        />
+                      </Col>
+                    </Row>
+                  </>
+                ) : (
+                  <div className="d-flex flex-column flex-md-row gap-2">
+                    <div className="d-flex gap-2 flex-md-column justify-content-center order-1 order-md-0">
+                      <img
+                        loading="lazy"
+                        src="https://img.freepik.com/premium-photo/hand-holding-light-bulb-is-symbol-intellectual-light-creative-education-concept_557176-1107.jpg"
+                        alt=""
+                        className="w-100 object-fit-cover rounded-3"
+                        height={150}
+                      />
+                      <img
+                        loading="lazy"
+                        src="https://img.freepik.com/premium-photo/online-briefing-brainstorming-group-remote-work-concept-with-young-man-sitting-office-chair-looking-digital-tablet-screen-virtual-profile-picture-windows-with-colleagues-he-contacted_670147-41.jpg"
+                        alt=""
+                        className="w-100 object-fit-cover rounded-3"
+                        height={150}
+                      />
+                    </div>
+                    <LazyVideo
+                      src="https://res.cloudinary.com/djlxlz9y3/video/upload/v1760410412/Technology_v8siv9.mp4"
+                      height={350}
+                      className="rounded-3"
                     />
                   </div>
-                  <LazyVideo
-                    src="https://res.cloudinary.com/djlxlz9y3/video/upload/v1760410412/Technology_v8siv9.mp4"
-                    height={350}
-                    className="rounded-3"
-                  />
-                </div>
+                )}
               </Col>
-
               <Col md="6">
                 <AccentTag
                   subtitle={t("estrategiaSection.subtitle")}
@@ -229,141 +272,75 @@ export const Services = () => {
         <section className="py-5 bg-white">
           <Container className="py-5">
             <Row className="gy-5">
+              {/* --- Cards de metodologías (Learn, Agile, Waterfall, ITIL) --- */}
               <Col xs="12" className="mb-5">
                 <Row className="gy-5">
-                  <Col md="6" lg="3" id="metodology-section">
-                    <div className="d-flex align-items-center gap-3">
-                      <div>
-                        <div className="metodology-icon bg-primary">
-                          <i className="bi bi-journal-text"></i>
+                  {t("metodology.items", { returnObjects: true }).map(
+                    (item, index) => (
+                      <Col md="6" lg="3" key={index} id="metodology-section">
+                        <div className="d-flex align-items-center gap-3">
+                          <div>
+                            <div className={`metodology-icon ${item.bgClass}`}>
+                              <i className={`bi ${item.icon}`}></i>
+                            </div>
+                          </div>
+                          <div>
+                            <p className="descripcion mb-1 color-dark-65">
+                              {item.text}
+                            </p>
+                            <h6 className="fw-semibold">{item.title}</h6>
+                          </div>
                         </div>
-                      </div>
-                      <div>
-                        <p className="descripcion mb-1 color-dark-65">
-                          Adquiere habilidades digitales útiles con recursos
-                          claros y aplicables.
-                        </p>
-                        <h6 className="fw-semibold">Learn</h6>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col md="6" lg="3" id="metodology-section">
-                    <div className="d-flex align-items-center gap-3">
-                      <div>
-                        <div className="metodology-icon bg-accent">
-                          <i className="bi bi-lightning"></i>
-                        </div>
-                      </div>
-                      <div>
-                        <p className="descripcion mb-1 color-dark-65">
-                          Itera rápido, colabora mejor y adapta soluciones en
-                          tiempo real.
-                        </p>
-                        <h6 className="fw-semibold">Agile</h6>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col md="6" lg="3" id="metodology-section">
-                    <div className="d-flex align-items-center gap-3">
-                      <div>
-                        <div className="metodology-icon bg-variado1">
-                          <i className="bi bi-diagram-3"></i>
-                        </div>
-                      </div>
-                      <div>
-                        <p className="descripcion mb-1 color-dark-65">
-                          Define fases secuenciales para proyectos con
-                          requisitos bien estructurados.
-                        </p>
-                        <h6 className="fw-semibold">Waterfall</h6>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col md="6" lg="3" id="metodology-section">
-                    <div className="d-flex align-items-center gap-3">
-                      <div>
-                        <div className="metodology-icon bg-variado2">
-                          <i className="bi bi-hdd-network"></i>
-                        </div>
-                      </div>
-                      <div>
-                        <p className="descripcion mb-1 color-dark-65">
-                          Gestiona servicios TI con procesos estandarizados y
-                          mejora continua.
-                        </p>
-                        <h6 className="fw-semibold">ITIL</h6>
-                      </div>
-                    </div>
-                  </Col>
+                      </Col>
+                    )
+                  )}
                 </Row>
               </Col>
+
+              {/* --- Imagen ilustrativa --- */}
               <Col md="10" lg="7" className="mx-auto">
                 <img
                   loading="lazy"
                   height={400}
                   src="https://img.freepik.com/free-photo/business-chart-visual-graphics-report-concept_53876-167093.jpg"
-                  alt=""
+                  alt={t("metodology.image_alt")}
                   className="w-100 object-fit-cover rounded-3"
                 />
               </Col>
+
+              {/* --- Bloque de gestión estratégica --- */}
               <Col lg="5" md="12">
                 <div>
                   <div className="d-flex align-items-center gap-1 color-accent text-uppercase small">
                     <span style={{ width: "35px" }}>
                       <hr className="opacity-75" />
                     </span>{" "}
-                    <span>Gestión estratégica</span>
+                    <span>{t("metodology.subtitle")}</span>
                   </div>
+
                   <h1 className="mb-3 fw-semibold">
-                    Transforma tu operación con{" "}
-                    <span className="color-accent">metodologías</span> probadas
+                    {t("metodology.title")}{" "}
+                    <span className="color-accent">
+                      {t("metodology.highlight")}
+                    </span>{" "}
+                    {t("metodology.title_end")}
                   </h1>
+
                   <ul className="list-unstyled">
-                    <li className="mb-3 d-flex gap-2">
-                      <i
-                        className="bi bi-record-circle-fill color-primary"
-                        style={{ fontSize: "17px" }}></i>
-                      <div>
-                        <p className="fw-bold mb-2">
-                          Cultura ágil aplicada a equipos TI
-                        </p>
-                        <small className="color-dark-65">
-                          Implementa sprints, tableros Kanban y validación
-                          continua para acelerar resultados sin perder control.
-                        </small>
-                      </div>
-                    </li>
-                    <li className="mb-3 d-flex gap-2">
-                      <i
-                        className="bi bi-record-circle-fill color-primary"
-                        style={{ fontSize: "17px" }}></i>
-                      <div>
-                        <p className="fw-bold mb-0">
-                          Servicios TI con enfoque ITIL
-                        </p>
-                        <small className="color-dark-65">
-                          Estandariza procesos, mejora la atención al cliente y
-                          reduce tiempos de respuesta con prácticas reconocidas
-                          globalmente.
-                        </small>
-                      </div>
-                    </li>
-                    <li className="mb-3 d-flex gap-2">
-                      <i
-                        className="bi bi-record-circle-fill color-primary"
-                        style={{ fontSize: "17px" }}></i>
-                      <div>
-                        <p className="fw-bold mb-0">
-                          Control total sobre cada fase del proyecto
-                        </p>
-                        <small className="color-dark-65">
-                          Planifica, documenta y ejecuta con precisión,
-                          asegurando entregas alineadas a los requisitos
-                          iniciales.
-                        </small>
-                      </div>
-                    </li>
-                  </ul>{" "}
+                    {t("metodology.list", { returnObjects: true }).map(
+                      (item, index) => (
+                        <li key={index} className="mb-3 d-flex gap-2">
+                          <i
+                            className="bi bi-record-circle-fill color-primary"
+                            style={{ fontSize: "17px" }}></i>
+                          <div>
+                            <p className="fw-bold mb-2">{item.title}</p>
+                            <small className="color-dark-65">{item.text}</small>
+                          </div>
+                        </li>
+                      )
+                    )}
+                  </ul>
                 </div>
               </Col>
             </Row>

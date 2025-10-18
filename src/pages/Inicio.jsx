@@ -187,7 +187,7 @@ export const Inicio = () => {
                         />
                       </div>
 
-                      <Row className="gy-3 mt-3">
+                      <Row className="gy-3 mt-2">
                         <Col xs="6">
                           <img
                             data-aos="zoom-in"

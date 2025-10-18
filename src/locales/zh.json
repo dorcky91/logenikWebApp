@@ -101,6 +101,54 @@
     ]
   },
 
+  "metodology": {
+    "subtitle": "战略管理",
+    "title": "用",
+    "highlight": "经验证的方法论",
+    "title_end": "来改造您的运营",
+    "image_alt": "业务管理图表",
+    "list": [
+      {
+        "title": "应用于 IT 团队的敏捷文化",
+        "text": "实施短迭代、看板和持续验证，在不失控的前提下加速产出。"
+      },
+      {
+        "title": "以 ITIL 为导向的 IT 服务",
+        "text": "标准化流程、提升客户支持并通过公认实践缩短响应时间。"
+      },
+      {
+        "title": "对项目每个阶段的全面控制",
+        "text": "精确规划、记录与执行，确保交付与初始需求对齐。"
+      }
+    ],
+    "items": [
+      {
+        "icon": "bi-journal-text",
+        "bgClass": "bg-primary",
+        "title": "Learn",
+        "text": "通过清晰且可操作的资源获取实用的数字技能。"
+      },
+      {
+        "icon": "bi-lightning",
+        "bgClass": "bg-accent",
+        "title": "Agile",
+        "text": "快速迭代、更好协作，并实时调整解决方案。"
+      },
+      {
+        "icon": "bi-diagram-3",
+        "bgClass": "bg-variado1",
+        "title": "Waterfall",
+        "text": "为具有良好结构化需求的项目定义顺序阶段。"
+      },
+      {
+        "icon": "bi-hdd-network",
+        "bgClass": "bg-variado2",
+        "title": "ITIL",
+        "text": "通过标准化流程与持续改进管理 IT 服务。"
+      }
+    ]
+  },
+
   "projectsSection": {
     "title": "最近开发的项目",
     "projects": [
@@ -441,7 +489,14 @@
   "footer": {
     "quick_links": "快速链接",
     "social": "社交媒体",
-    "contact": "联系方式",
-    "rights_reserved": "版权所有。"
+    "contact": "联系",
+    "rights_reserved": "版权所有。",
+    "description": "我们将创意转化为创新的数字解决方案。您值得信赖的技术合作伙伴，助力企业成功。",
+    "legal": {
+      "title": "法律信息",
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "faq": "常见问题"
+    }
   }
 }

@@ -101,6 +101,54 @@
     ]
   },
 
+  "metodology": {
+    "subtitle": "Gestion stratégique",
+    "title": "Transformez votre activité avec",
+    "highlight": "méthodologies",
+    "title_end": "éprouvées",
+    "image_alt": "Graphique de gestion d'entreprise",
+    "list": [
+      {
+        "title": "Culture agile appliquée aux équipes IT",
+        "text": "Mettez en place des sprints, des tableaux Kanban et une validation continue pour accélérer les résultats sans perdre le contrôle."
+      },
+      {
+        "title": "Services IT avec approche ITIL",
+        "text": "Standardisez les processus, améliorez le support client et réduisez les temps de réponse avec des pratiques reconnues mondialement."
+      },
+      {
+        "title": "Contrôle total sur chaque phase du projet",
+        "text": "Planifiez, documentez et exécutez avec précision, en garantissant des livraisons alignées aux exigences initiales."
+      }
+    ],
+    "items": [
+      {
+        "icon": "bi-journal-text",
+        "bgClass": "bg-primary",
+        "title": "Learn",
+        "text": "Acquérez des compétences numériques utiles avec des ressources claires et applicables."
+      },
+      {
+        "icon": "bi-lightning",
+        "bgClass": "bg-accent",
+        "title": "Agile",
+        "text": "Itérez rapidement, collaborez mieux et adaptez les solutions en temps réel."
+      },
+      {
+        "icon": "bi-diagram-3",
+        "bgClass": "bg-variado1",
+        "title": "Waterfall",
+        "text": "Définissez des phases séquentielles pour des projets aux exigences bien structurées."
+      },
+      {
+        "icon": "bi-hdd-network",
+        "bgClass": "bg-variado2",
+        "title": "ITIL",
+        "text": "Gérez les services IT avec des processus standardisés et une amélioration continue."
+      }
+    ]
+  },
+
   "projectsSection": {
     "title": "Projets récemment développés",
     "projects": [
@@ -442,6 +490,13 @@
     "quick_links": "Liens rapides",
     "social": "Réseaux sociaux",
     "contact": "Contact",
-    "rights_reserved": "Tous droits réservés."
+    "rights_reserved": "Tous droits réservés.",
+    "description": "Nous transformons les idées en solutions numériques innovantes. Votre partenaire technologique de confiance pour le succès de votre entreprise.",
+    "legal": {
+      "title": "Mentions légales",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "faq": "FAQ"
+    }
   }
 }

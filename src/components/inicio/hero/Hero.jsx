@@ -39,12 +39,7 @@ export const Hero = () => {
 
           <Col lg="7" md="6" className="ms-auto">
             <div className="position-relative">
-              <Card
-                className="position-absolute start-0 top-0 border-0 rounded-4 bg-variado1"
-                style={{
-                  width: "200px",
-                  outline: "10px solid #f7f8f9",
-                }}>
+              <Card className="position-absolute start-0 top-0 border-0 rounded-4 bg-variado1 card-hero-home">
                 <Card.Body>
                   <AnimatedCount prefix="+" value={99} suffix="%" />
                   <small className="text-white">
@@ -53,12 +48,7 @@ export const Hero = () => {
                 </Card.Body>
               </Card>
 
-              <Card
-                className="position-absolute bottom-0 end-0 border-0 rounded-4 bg-variado2"
-                style={{
-                  width: "200px",
-                  outline: "10px solid #f7f8f9",
-                }}>
+              <Card className="position-absolute bottom-0 end-0 border-0 rounded-4 bg-variado2 card-hero-home">
                 <Card.Body>
                   <AnimatedCount value={15} />
                   <small className="text-white">

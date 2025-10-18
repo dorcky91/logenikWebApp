@@ -98,6 +98,54 @@
     ]
   },
 
+  "metodology": {
+    "subtitle": "Strategic management",
+    "title": "Transform your operation with",
+    "highlight": "proven methodologies",
+    "title_end": "",
+    "image_alt": "Business management chart",
+    "list": [
+      {
+        "title": "Agile culture applied to IT teams",
+        "text": "Implement sprints, Kanban boards and continuous validation to speed results without losing control."
+      },
+      {
+        "title": "IT services with an ITIL approach",
+        "text": "Standardize processes, improve customer support and reduce response times with globally recognized practices."
+      },
+      {
+        "title": "Full control over every project phase",
+        "text": "Plan, document and execute precisely, ensuring deliveries aligned with initial requirements."
+      }
+    ],
+    "items": [
+      {
+        "icon": "bi-journal-text",
+        "bgClass": "bg-primary",
+        "title": "Learn",
+        "text": "Gain practical digital skills with clear, actionable resources."
+      },
+      {
+        "icon": "bi-lightning",
+        "bgClass": "bg-accent",
+        "title": "Agile",
+        "text": "Iterate fast, collaborate better and adapt solutions in real time."
+      },
+      {
+        "icon": "bi-diagram-3",
+        "bgClass": "bg-variado1",
+        "title": "Waterfall",
+        "text": "Define sequential phases for projects with well-structured requirements."
+      },
+      {
+        "icon": "bi-hdd-network",
+        "bgClass": "bg-variado2",
+        "title": "ITIL",
+        "text": "Manage IT services with standardized processes and continuous improvement."
+      }
+    ]
+  },
+
   "projectsSection": {
     "title": "Recently developed projects",
     "projects": [
@@ -439,6 +487,13 @@
     "quick_links": "Quick Links",
     "social": "Social Media",
     "contact": "Contact",
-    "rights_reserved": "All rights reserved."
+    "rights_reserved": "All rights reserved.",
+    "description": "We transform ideas into innovative digital solutions. Your trusted technology partner for business success.",
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "faq": "FAQ"
+    }
   }
 }
