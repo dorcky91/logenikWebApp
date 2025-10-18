@@ -114,6 +114,7 @@ export function Menu() {
 
 const languages = [
   { code: "es", flag: "🇲🇽", name: "Español (México)" },
+  { code: "ar", flag: "🫔", name: "Arlo (México)" },
   { code: "en", flag: "🇺🇸", name: "English" },
   { code: "fr", flag: "🇫🇷", name: "Français" },
   { code: "zh", flag: "🇨🇳", name: "中文" },
