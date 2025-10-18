@@ -113,7 +113,7 @@ export function Menu() {
 }
 
 const languages = [
-  { code: "es", flag: 🇲🇽 name: "Español (México)" },
+  { code: "es", flag: "🇲🇽", name: "Español (México)" },
   
   { code: "es", flag: "🇲🇽", name: "Español (México)" },
   { code: "ar", flag: "🇫🇷", name: "Arlo (México)" },
