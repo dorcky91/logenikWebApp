@@ -4,15 +4,15 @@ import Navbar from "react-bootstrap/Navbar";
 import { useTranslation } from "react-i18next";
 import logoGenik from "/images/logogenik.png";
 import "./Menu.css";
+import { useState } from "react";
 
 export function Menu() {
   const { t, i18n } = useTranslation();
 
+  const [expanded, setExpanded] = useState(false);
   const handleClick = () => {
-    const nav = document.getElementById("navbar");
-    if (nav) {
-      nav.classList.remove("show");
-    }
+    setExpanded(false);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const handleLanguageChange = (e) => {
@@ -22,7 +22,13 @@ export function Menu() {
   };
 
   return (
-    <Navbar expand="md" sticky="top" id="menu-navigation">
+    <Navbar
+      expand="md"
+      sticky="top"
+      id="menu-navigation"
+      onToggle={setExpanded}
+      expanded={expanded}
+      collapseOnSelect>
       <Container
         fluid="sm"
         className="d-flex align-items-center justify-content-between">

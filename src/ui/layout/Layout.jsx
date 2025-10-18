@@ -2,9 +2,7 @@ import { Link, Outlet } from "react-router";
 import { Menu } from "../menu/Menu";
 import { Footer } from "../footer/Footer";
 import { Col, Container, Row } from "react-bootstrap";
-import ScrollTop from "../../components/ScrollTop";
 import WhatsAppIcon from "../../components/WhatsappIcon";
-import { LanguageSwitcher } from "../../components/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
 
 export const Layout = () => {
@@ -12,7 +10,6 @@ export const Layout = () => {
 
   return (
     <>
-      <ScrollTop />
       <Menu />
       <Outlet />
 
