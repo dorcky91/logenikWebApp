@@ -4,14 +4,12 @@ import { Footer } from "../footer/Footer";
 import { Col, Container, Row } from "react-bootstrap";
 import WhatsAppIcon from "../../components/WhatsappIcon";
 import { useTranslation } from "react-i18next";
-import ScrollTop from "../../components/ScrollTop";
 
 export const Layout = () => {
   const { t } = useTranslation();
 
   return (
     <>
-      <ScrollTop />
       <Menu />
       <Outlet />
 
@@ -21,7 +19,10 @@ export const Layout = () => {
           style={{ backgroundColor: "rgb(var(--accent))" }}>
           <Row className="p-md-5 text-center">
             <Col md="9" lg="6" className="mx-auto">
-              <h1 data-aos="fade-up" className="text-white">
+              <h1
+                data-aos="fade-up"
+                className="text-white"
+                style={{ fontSize: "50px" }}>
                 {t("cardContact.ctaTitle")}
               </h1>
               <p data-aos="fade-up" className="text-white mb-5">

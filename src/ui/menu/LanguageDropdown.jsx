@@ -42,7 +42,7 @@ export const LanguageDropdown = ({
       {open && (
         <ul
           className="dropdown-menu show position-absolute end-0 mt-1 shadow-sm"
-          style={{ minWidth: 120 }}>
+          style={{ minWidth: 10 }}>
           {languages.map((lng) => (
             <li key={lng.code}>
               <button
