@@ -4,12 +4,14 @@ import { Footer } from "../footer/Footer";
 import { Col, Container, Row } from "react-bootstrap";
 import WhatsAppIcon from "../../components/WhatsappIcon";
 import { useTranslation } from "react-i18next";
+import ScrollTop from "../../components/ScrollTop";
 
 export const Layout = () => {
   const { t } = useTranslation();
 
   return (
     <>
+      <ScrollTop />
       <Menu />
       <Outlet />
 
