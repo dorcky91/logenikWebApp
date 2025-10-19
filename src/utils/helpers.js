@@ -337,3 +337,11 @@ export const faqs = [
       "Solo una idea clara de lo que deseas lograr. Nuestro equipo te guiará en todo el proceso: desde definir el alcance hasta la entrega final del producto.",
   },
 ];
+
+export const languages = [
+  { code: "es", flag: "mx", name: "Español (México)" },
+  { code: "en", flag: "us", name: "English" },
+  { code: "fr", flag: "fr", name: "Français" },
+  { code: "zh", flag: "cn", name: "中文" },
+  { code: "ht", flag: "ht", name: "Kreyòl Ayisyen" },
+];
