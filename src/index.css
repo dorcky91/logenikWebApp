@@ -132,6 +132,24 @@ h6 {
   background-color: #fff;
 }
 
+.language-dropdown {
+  .btn {
+    text-transform: capitalize !important; /* Quita mayúsculas en el dropdown */
+    padding: 5px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .btn:hover {
+    background: none !important;
+    color: #444;
+  }
+
+  .dropdown-item {
+    font-size: 12px;
+  }
+}
+
 .card-hero-home {
   width: 200px;
   outline: 10px solid #f7f8f9;
