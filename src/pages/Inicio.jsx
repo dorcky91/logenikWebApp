@@ -341,11 +341,11 @@ export const Inicio = () => {
               ) : (
                 <Col md="12">
                   <div
+                    data-aos="fade-up"
                     className="projects-container"
                     style={{ gridTemplateColumns: gridTemplate }}>
                     {projects.map((p) => (
                       <div
-                        data-aos="fade-up"
                         key={p.id}
                         className={`project-item ${
                           active === p.id ? "active" : ""
