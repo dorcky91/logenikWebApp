@@ -57,16 +57,20 @@ export const Contacto = () => {
                 <p>{section.description}</p>
               </div>
               <div className="redes-sociales d-flex gap-3">
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.facebook.com/share/1Bu4NaTpdK/?mibextid=wwXIfr"
+                  target="_blank">
                   <i className="bi bi-facebook text-white fs-4"></i>
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/logenik.1/" target="_blank">
                   <i className="bi bi-instagram text-white fs-4"></i>
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://x.com/logenik135872?s=21" target="_blank">
                   <i className="bi bi-twitter-x text-white fs-4"></i>
                 </a>
-                <a href="#" target="_blank">
+                <a
+                  href="https://www.linkedin.com/company/logenik"
+                  target="_blank">
                   <i className="bi bi-linkedin text-white fs-4"></i>
                 </a>
               </div>

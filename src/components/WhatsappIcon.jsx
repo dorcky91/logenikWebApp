@@ -1,5 +1,5 @@
 const WhatsAppIcon = ({
-  phoneNumber = "5215551234567",
+  phoneNumber = "+523352008682",
   message = "¡Hola! Quisiera más información.",
 }) => {
   return (

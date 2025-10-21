@@ -23,7 +23,7 @@ const clients = [
   },
   {
     name: "Empresa 6",
-    logo: "https://mosalii.com.mx/wp-content/uploads/2017/10/PNGPIX-COM-FedEx-Logo-PNG-Transparent.png",
+    logo: "https://res.cloudinary.com/djlxlz9y3/image/upload/v1761018700/fashion_fnw94y.png",
   },
 ];
 

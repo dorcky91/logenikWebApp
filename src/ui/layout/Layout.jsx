@@ -42,8 +42,8 @@ export const Layout = () => {
       </section>
 
       <WhatsAppIcon
-        phoneNumber="+523333802053"
-        message="Hola! Quisiera más información sobre sus servicios"
+        phoneNumber="+523352008682"
+        message="Hola, me interesa conocer más sobre tus servicios de desarrollo web. ¿Me puedes dar más información?"
       />
 
       <Footer />

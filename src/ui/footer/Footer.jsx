@@ -78,7 +78,7 @@ export const Footer = () => {
               <div style={{ width: "25px" }}>
                 <i className="bi bi-telephone small"></i>{" "}
               </div>
-              <a href="tel:+123456789">+1 23456789</a>
+              <a href="tel:+123456789">+52 3352008682</a>
             </div>
           </Col>
         </Row>
@@ -91,28 +91,28 @@ export const Footer = () => {
           <div className="d-flex gap-2">
             <a
               className="social-media"
-              href="#"
+              href="https://www.facebook.com/share/1Bu4NaTpdK/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer">
               <i className="bi bi-facebook"></i>
             </a>
             <a
               className="social-media"
-              href="#"
+              href="https://www.instagram.com/logenik.1/"
               target="_blank"
               rel="noopener noreferrer">
               <i className="bi bi-instagram"></i>
             </a>
             <a
               className="social-media"
-              href="#"
+              href="https://x.com/logenik135872?s=21"
               target="_blank"
               rel="noopener noreferrer">
               <i className="bi bi-twitter-x"></i>
             </a>
             <a
               className="social-media"
-              href="#"
+              href="https://www.linkedin.com/company/logenik"
               target="_blank"
               rel="noopener noreferrer">
               <i className="bi bi-linkedin"></i>
