@@ -78,7 +78,7 @@ export const Footer = () => {
               <div style={{ width: "25px" }}>
                 <i className="bi bi-telephone small"></i>{" "}
               </div>
-              <a href="tel:+123456789">+52 3352008682</a>
+              <a href="tel:+523352008682">+52 3352008682</a>
             </div>
           </Col>
         </Row>
