@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Col, Container, Form, Row, Spinner } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
+import emailjs from "@emailjs/browser";
+import { toast, ToastContainer } from "react-toastify";
 
 export const Contacto = () => {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
@@ -9,6 +11,86 @@ export const Contacto = () => {
   const section = t("contactHeroSection", { returnObjects: true });
   const sectionForm = t("contactProcessSection", { returnObjects: true });
   const faqs = t("faqSection.items", { returnObjects: true });
+
+  const [errors, setErrors] = useState({});
+  const [status, setStatus] = useState(null);
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setErrors((prevErrors) => ({
+      ...prevErrors,
+      [name]: value.trim() === "" ? "Requerido" : "",
+    }));
+
+    if (name === "email") {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      setErrors((prevErrors) => ({
+        ...prevErrors,
+        email: emailRegex.test(value)
+          ? ""
+          : "Por favor ingresa un correo válido",
+      }));
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setStatus("sending");
+
+    const form = e.target;
+    const formData = new FormData(form);
+    const name = formData.get("name")?.trim();
+    const email = formData.get("email")?.trim();
+    const company = formData.get("company")?.trim();
+    const subject = formData.get("subject")?.trim();
+    const message = formData.get("message")?.trim();
+
+    if (!name || !email || !message || !company || !subject) {
+      setStatus("error");
+      toast(`${sectionForm.form.errorIncomplete} 😐`, {
+        type: "error",
+      });
+      return;
+    }
+
+    const formattedMessage = message.replace(/\r\n|\r|\n/g, "\n");
+
+    var templateParams = {
+      name,
+      email,
+      company,
+      subject,
+      message: formattedMessage,
+      time: new Date().toLocaleString("fr-FR", {
+        timeZone: "America/Mexico_City",
+      }),
+    };
+
+    emailjs
+      .send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        templateParams,
+        {
+          publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+        }
+      )
+      .then((res) => {
+        console.log(res);
+        setStatus("success");
+        toast(`${sectionForm.form.successMessage} 😉`, { type: "success" });
+        form.reset();
+      })
+      .catch((err) => {
+        console.log(err);
+        setStatus("error");
+        toast(`${sectionForm.form.errorMessage} ☹️`, {
+          type: "error",
+        });
+      })
+      .finally(() => {
+        setTimeout(() => setStatus(null), 5000);
+      });
+  };
 
   return (
     <>
@@ -115,60 +197,145 @@ export const Contacto = () => {
                     <h3 className="mb-3">{sectionForm.title}</h3>
                   </div>
 
-                  <Form>
+                  <Form onSubmit={handleSubmit}>
                     <Row className="gy-4">
                       <Col md={6} lg="12" xl="6">
-                        <Form.Group controlId="formName">
-                          <Form.Label>{sectionForm.form.name}</Form.Label>
-                          <Form.Control type="text" required />
+                        <Form.Group controlId="name">
+                          <Form.Label>{sectionForm.form.name}*</Form.Label>
+                          <Form.Control
+                            type="text"
+                            required
+                            name="name"
+                            disabled={status === "sending"}
+                            onChange={handleChange}
+                            className={errors.name ? "is-invalid" : ""}
+                          />
+                          {errors.name && (
+                            <div className="text-danger small mt-1">
+                              {sectionForm.form.validation.required}
+                            </div>
+                          )}
                         </Form.Group>
                       </Col>
 
                       <Col md={6} lg="12" xl="6">
-                        <Form.Group controlId="formEmail">
-                          <Form.Label>{sectionForm.form.email}</Form.Label>
-                          <Form.Control type="email" required />
+                        <Form.Group controlId="email">
+                          <Form.Label>{sectionForm.form.email}*</Form.Label>
+                          <Form.Control
+                            type="email"
+                            required
+                            name="email"
+                            disabled={status === "sending"}
+                            onChange={handleChange}
+                            className={errors.email ? "is-invalid" : ""}
+                          />
+                          {errors.email && (
+                            <div className="text-danger small mt-1">
+                              {sectionForm.form.validation.invalidEmail}
+                            </div>
+                          )}
                         </Form.Group>
                       </Col>
 
                       <Col md={6} lg="12" xl="6">
-                        <Form.Group controlId="formCompany">
-                          <Form.Label>{sectionForm.form.company}</Form.Label>
-                          <Form.Control type="text" />
+                        <Form.Group controlId="company">
+                          <Form.Label>{sectionForm.form.company}*</Form.Label>
+                          <Form.Control
+                            type="text"
+                            name="company"
+                            required
+                            disabled={status === "sending"}
+                            onChange={handleChange}
+                            className={errors.company ? "is-invalid" : ""}
+                          />
+                          {errors.company && (
+                            <div className="text-danger small mt-1">
+                              {sectionForm.form.validation.required}
+                            </div>
+                          )}
                         </Form.Group>
                       </Col>
 
                       <Col md={6} lg="12" xl="6">
                         <Form.Group controlId="formSubject" className="mb-3">
-                          <Form.Label>{sectionForm.form.subject}</Form.Label>
-                          <Form.Select aria-label="Selecciona un asunto">
-                            <option value=""></option>
-                            <option value="webDevelopment">
+                          <Form.Label>{sectionForm.form.subject}*</Form.Label>
+                          <Form.Select
+                            aria-label="Selecciona un asunto"
+                            name="subject"
+                            required
+                            disabled={status === "sending"}
+                            onChange={handleChange}
+                            className={errors.subject ? "is-invalid" : ""}>
+                            <option
+                              value={
+                                sectionForm.form.subjectOptions.webDevelopment
+                              }>
                               {sectionForm.form.subjectOptions.webDevelopment}
                             </option>
-                            <option value="support">
+                            <option
+                              value={sectionForm.form.subjectOptions.support}>
                               {sectionForm.form.subjectOptions.support}
                             </option>
-                            <option value="ecommerce">
+                            <option
+                              value={sectionForm.form.subjectOptions.ecommerce}>
                               {sectionForm.form.subjectOptions.ecommerce}
                             </option>
-                            <option value="other">
+                            <option
+                              value={sectionForm.form.subjectOptions.other}>
                               {sectionForm.form.subjectOptions.other}
                             </option>
                           </Form.Select>
+                          {errors.subject && (
+                            <div className="text-danger small mt-1">
+                              {sectionForm.form.validation.required}
+                            </div>
+                          )}
                         </Form.Group>
                       </Col>
 
                       <Col md={12}>
-                        <Form.Group controlId="formMessage">
-                          <Form.Label>{sectionForm.form.message}</Form.Label>
-                          <Form.Control as="textarea" rows={4} />
+                        <Form.Group controlId="message">
+                          <Form.Label>{sectionForm.form.message}*</Form.Label>
+                          <Form.Control
+                            as="textarea"
+                            rows={4}
+                            name="message"
+                            required
+                            disabled={status === "sending"}
+                            onChange={handleChange}
+                            className={errors.message ? "is-invalid" : ""}
+                          />
+                          {errors.message && (
+                            <div className="text-danger small mt-1">
+                              {sectionForm.form.validation.required}
+                            </div>
+                          )}
                         </Form.Group>
                       </Col>
 
                       <Col md={12} className="text-end">
-                        <button type="submit" className="btn btn-accent">
-                          {sectionForm.form.submit}
+                        <button
+                          type="submit"
+                          className="btn btn-accent inline-flex align-items-center gap-1"
+                          disabled={
+                            Object.values(errors).some(
+                              (error) => error !== ""
+                            ) || status === "sending"
+                          }>
+                          {status === "sending" ? (
+                            <>
+                              <Spinner
+                                as="span"
+                                animation="border"
+                                size="sm"
+                                role="status"
+                                aria-hidden="true"
+                              />
+                              {sectionForm.form.sending}
+                            </>
+                          ) : (
+                            sectionForm.form.submit
+                          )}
                         </button>
                       </Col>
                     </Row>
@@ -211,6 +378,12 @@ export const Contacto = () => {
           </Container>
         </section>
       </main>
+
+      <ToastContainer
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+      />
     </>
   );
 };

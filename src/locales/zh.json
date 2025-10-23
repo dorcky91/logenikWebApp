@@ -450,7 +450,15 @@
         "other": "其他"
       },
       "message": "留言",
-      "submit": "发送消息"
+      "submit": "发送消息",
+      "sending": "发送中...",
+      "successMessage": "消息发送成功！我们会尽快与您联系。",
+      "errorMessage": "发送消息时出错。请稍后再试。",
+      "errorIncomplete": "请完成所有必填字段。",
+      "validation": {
+        "required": "此字段为必填项",
+        "invalidEmail": "请输入有效的电子邮件"
+      }
     }
   },
 

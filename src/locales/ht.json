@@ -450,7 +450,15 @@
         "other": "Lòt"
       },
       "message": "Mesaj",
-      "submit": "Voye mesaj"
+      "submit": "Voye mesaj",
+      "sending": "Ap voye...",
+      "successMessage": "Mesaj voye avèk siksè! N'ap kontakte w byento.",
+      "errorMessage": "Yon erè te rive pandan voye mesaj la. Tanpri, eseye ankò pita.",
+      "errorIncomplete": "Tanpri ranpli tout sa ki obligatwa yo.",
+      "validation": {
+        "required": "Sa a obligatwa",
+        "invalidEmail": "Tanpri antre yon imèl valab"
+      }
     }
   },
 

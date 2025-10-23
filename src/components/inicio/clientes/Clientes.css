@@ -28,7 +28,6 @@
 .client-logo {
   object-fit: contain;
   transition: transform 0.3s;
-  cursor: pointer;
   width: 200px;
 }
 

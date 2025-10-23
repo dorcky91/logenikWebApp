@@ -447,7 +447,15 @@
         "other": "Other"
       },
       "message": "Message",
-      "submit": "Send message"
+      "submit": "Send message",
+      "sending": "Sending...",
+      "successMessage": "Message sent successfully! We will contact you soon.",
+      "errorMessage": "There was an error sending the message. Please try again later.",
+      "errorIncomplete": "Please complete all required fields.",
+      "validation": {
+        "required": "This field is required",
+        "invalidEmail": "Please enter a valid email"
+      }
     }
   },
 

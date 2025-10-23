@@ -450,7 +450,15 @@
         "other": "Autre"
       },
       "message": "Message",
-      "submit": "Envoyer le message"
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "successMessage": "Message envoyé avec succès ! Nous vous contacterons bientôt.",
+      "errorMessage": "Une erreur s'est produite lors de l'envoi du message. Veuillez réessayer plus tard.",
+      "errorIncomplete": "Veuillez compléter tous les champs obligatoires.",
+      "validation": {
+        "required": "Ce champ est obligatoire",
+        "invalidEmail": "Veuillez entrer un email valide"
+      }
     }
   },
 

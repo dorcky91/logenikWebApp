@@ -46,7 +46,7 @@ h6 {
   color: rgb(var(--dark));
 }
 
-.btn:hover {
+.btn:hover:not(:disabled) {
   transform: scale(1.02);
 }
 
@@ -99,9 +99,15 @@ h6 {
   display: inline-block;
   border: 1px solid transparent;
   color: rgb(var(--light)) !important;
+
+  &:disabled {
+    background-color: rgba(var(--accent), 0.8);
+    cursor: not-allowed;
+    pointer-events: visible;
+  }
 }
 
-.btn-accent:is(:focus, :hover) {
+.btn-accent:is(:focus, :hover):not(:disabled) {
   outline: 2px solid rgba(var(--accent), 0.8);
   outline-offset: 2px;
   background-color: rgba(var(--accent));

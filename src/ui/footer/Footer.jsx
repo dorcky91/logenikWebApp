@@ -68,8 +68,8 @@ export const Footer = () => {
               <div style={{ width: "25px" }}>
                 <i className="bi bi-envelope small"></i>{" "}
               </div>
-              <a href="mailto:admin@logenik.com?subject=Desde la aplicación web">
-                admin@logenik.com
+              <a href="mailto:contact@logenik.net?subject=Contacto%20desde%20el%20sitio%20web">
+                contact@logenik.net
               </a>
             </div>
             <div
