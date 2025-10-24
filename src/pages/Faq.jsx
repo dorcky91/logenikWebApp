@@ -20,12 +20,10 @@ export const Faq = () => {
         <Container className="py-5">
           <Row>
             <Col md="9" lg="8">
-              <h2 className="fw-bold text-white">
+              <h2 className="fw-semibold text-white">
                 {t("politica_privacidad.title")}
               </h2>
-              <small className="header-legal-descripcion text-white">
-                {t("politica_privacidad.date")}
-              </small>
+              <p className="text-white">{t("politica_privacidad.date")}</p>
             </Col>
           </Row>
         </Container>

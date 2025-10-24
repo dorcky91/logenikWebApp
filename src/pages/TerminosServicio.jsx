@@ -18,12 +18,10 @@ export const TerminosServicio = () => {
         <Container className="py-5">
           <Row>
             <Col md="9" lg="8">
-              <h2 className="fw-bold text-white">
+              <h2 className="fw-semibold text-white">
                 {t("terminos_servicio.title")}
               </h2>
-              <small className="header-legal-descripcion text-white">
-                {t("terminos_servicio.date")}
-              </small>
+              <p className="text-white">{t("terminos_servicio.date")}</p>
             </Col>
           </Row>
         </Container>
