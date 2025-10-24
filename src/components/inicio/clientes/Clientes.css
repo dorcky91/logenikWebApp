@@ -28,7 +28,7 @@
 .client-logo {
   object-fit: contain;
   transition: transform 0.3s;
-  width: 200px;
+  width: 145px;
 }
 
 .client-logo:hover {
