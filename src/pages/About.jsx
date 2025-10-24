@@ -1,7 +1,6 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import "@/assets/About.css";
-import { cardNosotros, cascadeUp } from "../utils/helpers";
-import { motion } from "motion/react";
+import { cascadeUp } from "../utils/helpers";
 import AccentTag from "../ui/AccentTag";
 import { AnimatedCount } from "../components/AnimatedCount";
 import LazyVideo from "../components/LazyVideo";
@@ -19,8 +18,8 @@ export const About = () => {
 
   return (
     <>
-      <header className="py-5">
-        <Container className="py-5">
+      <header className="pb-5 pt-2 pt-md-5">
+        <Container>
           <Row className="gy-4 align-items-lg-center">
             {/* Texto principal */}
             <Col lg={7} md={9}>
@@ -120,7 +119,7 @@ export const About = () => {
                       {aboutTeam.cards.map((item, index) => (
                         <Col md="6" sm="6" key={index}>
                           <Card>
-                            <Card.Header className="position-relative">
+                            <Card.Header className="position-relative d-none d-md-block">
                               <div className="wrapper">
                                 <div className="efecto-card-servicio">
                                   <svg
@@ -162,6 +161,9 @@ export const About = () => {
                               </div>
                             </Card.Header>
                             <Card.Body>
+                              <div className="d-md-none">
+                                <i className={`bi ${item.icono} fs-4`}></i>
+                              </div>
                               <p className="fw-bold mt-3 mb-2">{item.titulo}</p>
                               <small>{item.texto}</small>
                             </Card.Body>

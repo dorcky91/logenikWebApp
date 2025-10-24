@@ -1,29 +1,37 @@
 import { Link, NavLink } from "react-router";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-import { useTranslation } from "react-i18next"; // 👈 Importante
+import { useTranslation } from "react-i18next";
 import logoGenik from "/images/logogenik.png";
+import { LanguageDropdown } from "./LanguageDropdown";
 import "./Menu.css";
+import { languages } from "../../utils/helpers";
+import { useState } from "react";
 
-export function Menu() {
-  const { t, i18n } = useTranslation(); // 👈 Hook para traducir textos
+export const Menu = () => {
+  const { t, i18n } = useTranslation();
 
+  const [expanded, setExpanded] = useState(false);
   const handleClick = () => {
-    const nav = document.getElementById("navbar");
-    if (nav) {
-      nav.classList.remove("show");
-    }
-  };
-
-  const handleLanguageChange = (e) => {
-    const selectedLang = e.target.value;
-    i18n.changeLanguage(selectedLang);
-    handleClick();
+    setExpanded(false);
+    window.scrollTo({
+      top: 0,
+      behavior: "auto", // smooth
+    });
   };
 
   return (
-    <Navbar expand="md" sticky="top" id="menu-navigation">
-      <Container fluid="sm">
+    <Navbar
+      expand="md"
+      sticky="top"
+      id="menu-navigation"
+      onToggle={setExpanded}
+      expanded={expanded}
+      collapseOnSelect>
+      <Container
+        fluid="sm"
+        className="d-flex align-items-center justify-content-between">
+        {/* LOGO */}
         <Link to="/">
           <img
             height={45}
@@ -38,9 +46,23 @@ export function Menu() {
             className="d-none d-md-inline"
           />
         </Link>
-        <Navbar.Toggle aria-controls="navbar" />
+
+        {/* MÓVIL: Hamburguesa + bandera sola */}
+        <div className="d-flex align-items-center d-md-none">
+          <Navbar.Toggle aria-controls="navbar" />
+          <LanguageDropdown
+            languages={languages}
+            currentLang={i18n.language}
+            onChange={(lang) => i18n.changeLanguage(lang)}
+            mobileOnly={true}
+          />
+        </div>
+
+        {/* MENÚ PRINCIPAL */}
         <Navbar.Collapse id="navbar" className="pt-4 pt-md-0">
-          <ul id="menu-links" className="navbar-nav ms-auto">
+          <ul
+            id="menu-links"
+            className="navbar-nav ms-auto align-items-md-center">
             <li className="nav-item">
               <NavLink onClick={handleClick} to="/" className="nav-link">
                 {t("menu.home")}
@@ -64,29 +86,21 @@ export function Menu() {
                 {t("menu.contact")}
               </NavLink>
             </li>
-            <li className="nav-item d-flex align-items-center">
-              <select
-                className="form-select"
-                value={i18n.language}
-                onChange={handleLanguageChange}>
-                {languages.map((lng) => (
-                  <option key={lng.code} value={lng.code} title={lng.name}>
-                    {lng.flag}
-                  </option>
-                ))}
-              </select>
+
+            {/* DESKTOP: bandera + texto */}
+            <li className="nav-item d-none d-md-flex align-items-center ms-3">
+              <LanguageDropdown
+                languages={languages}
+                currentLang={i18n.language}
+                onChange={(lang) => {
+                  i18n.changeLanguage(lang);
+                  handleClick();
+                }}
+              />
             </li>
           </ul>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
-}
-
-const languages = [
-  { code: "es", flag: "🇪🇸", name: "Español" },
-  { code: "en", flag: "🇺🇸", name: "English" },
-  { code: "fr", flag: "🇫🇷", name: "Français" },
-  { code: "zh", flag: "🇨🇳", name: "中文" },
-  { code: "ht", flag: "🇭🇹", name: "Kreyòl Ayisyen" },
-];
+};

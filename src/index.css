@@ -46,7 +46,7 @@ h6 {
   color: rgb(var(--dark));
 }
 
-.btn:hover {
+.btn:hover:not(:disabled) {
   transform: scale(1.02);
 }
 
@@ -99,9 +99,15 @@ h6 {
   display: inline-block;
   border: 1px solid transparent;
   color: rgb(var(--light)) !important;
+
+  &:disabled {
+    background-color: rgba(var(--accent), 0.8);
+    cursor: not-allowed;
+    pointer-events: visible;
+  }
 }
 
-.btn-accent:is(:focus, :hover) {
+.btn-accent:is(:focus, :hover):not(:disabled) {
   outline: 2px solid rgba(var(--accent), 0.8);
   outline-offset: 2px;
   background-color: rgba(var(--accent));
@@ -132,9 +138,34 @@ h6 {
   background-color: #fff;
 }
 
+.language-dropdown {
+  .btn {
+    text-transform: capitalize !important; /* Quita mayúsculas en el dropdown */
+    padding: 5px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .btn:hover {
+    background: none !important;
+    color: #444;
+  }
+
+  .dropdown-item {
+    font-size: 12px;
+  }
+}
+
+.card-hero-home {
+  width: 200px;
+  outline: 10px solid #f7f8f9;
+}
+
+.animated-number {
+  font-size: 3.5rem;
+}
+
 .projects-section {
-  /* background-color: #1a1f36; */
-  /* color: #fff; */
   padding: 4rem 2rem;
   text-align: center;
 }
@@ -261,6 +292,7 @@ h6 {
   font-size: 0.9rem;
   display: flex;
   align-items: center;
+
   justify-content: center;
   box-shadow: 0 0 0 4px #e8f6f4;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -343,6 +375,84 @@ input.form-control,
   }
 }
 
+#whatsapp-icon {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  z-index: 1021;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #25d366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#politica-privacidad,
+#terminos-servicio {
+  .number-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(var(--accent));
+  }
+}
+
+#header-politica {
+  position: relative;
+  min-height: 200px;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.95) 35%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.7) 65%
+    ),
+    url("https://img.freepik.com/free-photo/standard-quality-control-collage_23-2149631017.jpg")
+      no-repeat center center/cover;
+}
+
+#header-terminos {
+  position: relative;
+  min-height: 200px;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.95) 35%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.7) 65%
+    ),
+    url("https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041854.jpg")
+      no-repeat center center/cover;
+}
+
+#header-faq {
+  position: relative;
+  min-height: 200px;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.6) 35%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.6) 65%
+    ),
+    url("https://img.freepik.com/free-photo/question-mark-query-information-support-service-graphic_53876-127470.jpg")
+      no-repeat center center/cover;
+}
+
+.header-txt {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  transform: translate(-50%, -50%); /* centra verticalmente */
+}
+
 @media (max-width: 991.98px) {
   .contact-card {
     transform: translateY(0);
@@ -350,6 +460,15 @@ input.form-control,
 }
 
 @media (max-width: 767.98px) {
+  .navbar {
+    box-shadow: var(--bs-box-shadow-sm) !important;
+    background-color: #fff;
+  }
+
+  .projects-section {
+    padding-inline: 0;
+  }
+
   .card-queHacemos {
     position: absolute !important;
     top: 50%;
@@ -364,5 +483,19 @@ input.form-control,
 @media (max-width: 575.98px) {
   .cta {
     border-radius: 0 !important;
+  }
+
+  #whatsapp-icon {
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .card-hero-home {
+    width: 190px;
+    outline: 5px solid #f7f8f9;
+  }
+
+  .animated-number {
+    font-size: 1.5rem;
   }
 }

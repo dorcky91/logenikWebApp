@@ -24,65 +24,6 @@ export const cascadeLeft = (delay = 0) => ({
 });
 //#endregion
 
-// export const contenidos = [
-//   {
-//     // id: 0,
-//     // title: "Aplicaciones web",
-//     // paragraphs: [
-//     //   "Nuestro servicio integral de desarrollo de aplicaciones web abarca todas las etapas del proceso: planeación, diseño, desarrollo, publicación y mantenimiento. Trabajamos de manera estructurada y estratégica para asegurar que cada proyecto cumpla con los más altos estándares de calidad, seguridad y rendimiento.",
-//     //   "Nos enfocamos en construir soluciones web sólidas, escalables y personalizadas, adaptadas a las necesidades y objetivos de cada cliente. Acompañamos todo el ciclo de vida de la aplicación, brindando soporte técnico, actualizaciones y optimización constante para garantizar la continuidad y el crecimiento digital de su negocio.",
-//     // ],
-//     // strong: "Transformamos Ideas en Plataformas Digitales Eficientes.",
-//     video:
-//       "https://res.cloudinary.com/djlxlz9y3/video/upload/v1760411529/webPage_coyj06.mov",
-
-//     imgPrincipal:
-//       "https://img.freepik.com/free-photo/technology-hologram-indoors_23-2151833348.jpg",
-//     imgSecondario:
-//       "https://img.freepik.com/premium-photo/businessman-holding-app-template-smartphone_110893-1080.jpg",
-//     imgTerciario:
-//       "https://img.freepik.com/premium-photo/web-page-open-about-online-language_1288529-3827.jpg",
-//     // label: "Aplicaciones web",
-//   },
-//   {
-//     // id: 1,
-//     // title: "Mantenimiento y soporte",
-//     // paragraphs: [
-//     //   "En nuestra empresa ofrecemos servicios completos de mantenimiento y soporte para tu sitio web o aplicación, asegurando que siempre funcione de manera óptima y segura. Nos encargamos de actualizaciones, corrección de errores, optimización de rendimiento y adaptación a nuevas tecnologías, para que tu presencia digital nunca se vea comprometida.",
-//     //   "Nuestro equipo de expertos brinda soporte técnico rápido y eficiente, desde la gestión de servidores y bases de datos hasta la implementación de nuevas funcionalidades. Con nuestro servicio, tu web estará siempre actualizada, segura y lista para crecer junto a tu negocio.",
-//     // ],
-//     // strong: "Tu Sitio Web Siempre Seguro, Actualizado y Listo para Crecer.",
-//     video:
-//       "https://res.cloudinary.com/djlxlz9y3/video/upload/v1760397190/soporte_mantenimiento_q68lzg.mov",
-//     imgPrincipal:
-//       "https://img.freepik.com/free-photo/worker-providing-live-chat-support-typing-keyboard-using-ai-chatbot_482257-126204.jpg",
-//     imgSecondario:
-//       "https://img.freepik.com/premium-photo/network_568137-1133.jpg",
-//     imgTerciario:
-//       "https://img.freepik.com/premium-photo/software-development-life-cycle-concept-businessman-using-laptop-computer-desk-with-software-development-life-cycle-icon-virtual-screen_1296497-1824.jpg",
-//     // label: "Mantenimiento y soporte",
-//   },
-//   {
-//     // id: 2,
-//     // title: "Integraciones y automatizaciones",
-//     // paragraphs: [
-//     //   "Ofrecemos soluciones de integraciones y automatizaciones que permiten que tus sistemas y herramientas trabajen juntos de manera eficiente, reduciendo tareas manuales y errores. Conectamos tus aplicaciones, plataformas y bases de datos para que la información fluya automáticamente y puedas enfocarte en lo que realmente importa: hacer crecer tu negocio.",
-//     //   "Nuestro equipo se encarga de implementar flujos de trabajo inteligentes, sincronización de datos y automatizaciones personalizadas que optimizan tus procesos internos y mejoran la experiencia de tus clientes. Con nuestras integraciones, tu empresa gana eficiencia, precisión y agilidad, permitiéndote tomar decisiones más rápidas y efectivas.",
-//     // ],
-//     // strong:
-//     //   "Conecta y Automatiza tu Negocio para Ahorrar Tiempo y Maximizar Resultados.",
-//     video:
-//       "https://res.cloudinary.com/djlxlz9y3/video/upload/v1760396593/integracion_vctcdd.mp4",
-//     imgPrincipal:
-//       "https://img.freepik.com/free-photo/ui-ux-representations-with-smart-watch_23-2150201850.jpg",
-//     imgSecondario:
-//       "https://img.freepik.com/premium-photo/businessman-with-computer-background-with-technology-theme-hologram-concept-big-data-double-exposure_700248-77733.jpg",
-//     imgTerciario:
-//       "https://img.freepik.com/free-photo/representation-user-experience-interface-design_23-2150169834.jpg",
-//     // label: "Integraciones y automatizaciones",
-//   },
-// ];
-
 export const contenidosBase = [
   {
     id: 0,
@@ -284,6 +225,7 @@ export const testimoniales = [
   },
 ];
 
+//Etapas de contacto
 export const stepsContact = [
   {
     number: "1",
@@ -305,6 +247,7 @@ export const stepsContact = [
   },
 ];
 
+//preguntas frecuentes
 export const faqs = [
   {
     number: "01.",
@@ -336,4 +279,13 @@ export const faqs = [
     answer:
       "Solo una idea clara de lo que deseas lograr. Nuestro equipo te guiará en todo el proceso: desde definir el alcance hasta la entrega final del producto.",
   },
+];
+
+//lenguajes
+export const languages = [
+  { code: "es", flag: "mx", name: "Español (México)" },
+  { code: "en", flag: "us", name: "English" },
+  { code: "fr", flag: "fr", name: "Français" },
+  { code: "zh", flag: "cn", name: "中文" },
+  { code: "ht", flag: "ht", name: "Kreyòl Ayisyen" },
 ];

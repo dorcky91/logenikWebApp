@@ -19,8 +19,8 @@
   },
 
   "cardContact": {
-    "ctaTitle": "有一个项目在脑海中吗？",
-    "ctaText": "我们以能够交付成果并超越预期而自豪。请通过填写以下表格告诉我们您的需求。我们的团队将尽快与您联系，帮助您将项目提升到新的高度。",
+    "ctaTitle": "你的创意准备起飞了吗？",
+    "ctaText": "我们将创意转化为独特的数字体验。告诉我们你的愿景，我们的团队将把它变成非凡的成果。",
     "ctaButton": "联系我们"
   },
 
@@ -97,6 +97,54 @@
         ],
         "strong": "连接并自动化您的业务，节省时间并最大化成果。",
         "label": "集成与自动化"
+      }
+    ]
+  },
+
+  "metodology": {
+    "subtitle": "战略管理",
+    "title": "用",
+    "highlight": "经验证的方法论",
+    "title_end": "来改造您的运营",
+    "image_alt": "业务管理图表",
+    "list": [
+      {
+        "title": "应用于 IT 团队的敏捷文化",
+        "text": "实施短迭代、看板和持续验证，在不失控的前提下加速产出。"
+      },
+      {
+        "title": "以 ITIL 为导向的 IT 服务",
+        "text": "标准化流程、提升客户支持并通过公认实践缩短响应时间。"
+      },
+      {
+        "title": "对项目每个阶段的全面控制",
+        "text": "精确规划、记录与执行，确保交付与初始需求对齐。"
+      }
+    ],
+    "items": [
+      {
+        "icon": "bi-journal-text",
+        "bgClass": "bg-primary",
+        "title": "Learn",
+        "text": "通过清晰且可操作的资源获取实用的数字技能。"
+      },
+      {
+        "icon": "bi-lightning",
+        "bgClass": "bg-accent",
+        "title": "Agile",
+        "text": "快速迭代、更好协作，并实时调整解决方案。"
+      },
+      {
+        "icon": "bi-diagram-3",
+        "bgClass": "bg-variado1",
+        "title": "Waterfall",
+        "text": "为具有良好结构化需求的项目定义顺序阶段。"
+      },
+      {
+        "icon": "bi-hdd-network",
+        "bgClass": "bg-variado2",
+        "title": "ITIL",
+        "text": "通过标准化流程与持续改进管理 IT 服务。"
       }
     ]
   },
@@ -332,7 +380,7 @@
   "aboutExperiencesSection": {
     "items": [
       {
-        "value": 15,
+        "value": 20,
         "label": "完成项目"
       },
       {
@@ -340,7 +388,7 @@
         "label": "客户"
       },
       {
-        "value": 10,
+        "value": 5,
         "label": "经验年数"
       },
       {
@@ -402,7 +450,15 @@
         "other": "其他"
       },
       "message": "留言",
-      "submit": "发送消息"
+      "submit": "发送消息",
+      "sending": "发送中...",
+      "successMessage": "消息发送成功！我们会尽快与您联系。",
+      "errorMessage": "发送消息时出错。请稍后再试。",
+      "errorIncomplete": "请完成所有必填字段。",
+      "validation": {
+        "required": "此字段为必填项",
+        "invalidEmail": "请输入有效的电子邮件"
+      }
     }
   },
 
@@ -438,10 +494,198 @@
     ]
   },
 
+  "politica_privacidad": {
+    "title": "隐私政策 – LOGENIK",
+    "date": "最后更新：2025年10月23日",
+    "iconClass": "bi bi-shield-lock-fill color-primary",
+    "intro": "在LOGENIK，我们重视您的隐私，并承诺根据《个人数据保护法》（LFPDPPP）和国际最佳实践保护您的个人数据。",
+    "sections": [
+      {
+        "number": "1",
+        "subtitle": "我们收集的数据",
+        "text": "当您与我们的网站或服务互动时，我们可能会收集个人信息：",
+        "items": [
+          "全名、电子邮件地址、电话号码。",
+          "通过表格或报价单提交的联系信息。",
+          "未来在线销售时的账单和购买数据。",
+          "请求专业服务时提供的公司或项目信息。"
+        ]
+      },
+      {
+        "number": "2",
+        "subtitle": "我们如何使用您的数据",
+        "text": "收集的数据仅用于：",
+        "items": [
+          "就信息请求或报价与您联系。",
+          "提供和改进我们的服务。",
+          "发送通知、促销或有关LOGENIK的相关信息。",
+          "遵守法律和税务义务。"
+        ]
+      },
+      {
+        "number": "3",
+        "subtitle": "数据共享",
+        "text": "除非：",
+        "items": [
+          "与相关服务提供商（例如，托管或电子邮件营销）共享。",
+          "根据法律或主管机关的要求。"
+        ]
+      },
+      {
+        "number": "4",
+        "subtitle": "安全性",
+        "text": "我们采取技术和管理措施，保护您的数据免受丢失、未经授权的访问、篡改或披露。"
+      },
+      {
+        "number": "5",
+        "subtitle": "ARCO权利",
+        "text": "您有权访问、修改、取消和反对（ARCO）处理您的个人数据。如欲行使这些权利，请通过<a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>与我们联系。"
+      },
+      {
+        "number": "6",
+        "subtitle": "政策变更",
+        "text": "LOGENIK可能随时更新此政策。建议定期查看本节。"
+      }
+    ]
+  },
+
+  "terminos_servicio": {
+    "title": "服务条款 – LOGENIK",
+    "date": "最后更新：2025年10月23日",
+    "iconClass": "bi bi-file-earmark-text-fill color-primary",
+    "intro": "使用我们的网站和服务即表示您同意LOGENIK制定的条款和条件。这些条款定义了公司与用户或客户之间的使用规则、责任和权利。",
+    "sections": [
+      {
+        "number": "1",
+        "subtitle": "接受",
+        "text": "访问和使用本网站即表示您同意遵守这些服务条款。如果不同意，请不要使用LOGENIK的服务。"
+      },
+      {
+        "number": "2",
+        "subtitle": "服务",
+        "text": "LOGENIK提供广泛的技术服务，包括：",
+        "items": [
+          "定制网站和软件开发。",
+          "IT咨询和技术支持。",
+          "托管、维护和数字营销。",
+          "未来在线销售产品和服务。"
+        ]
+      },
+      {
+        "number": "3",
+        "subtitle": "网站使用",
+        "text": "用户承诺以负责任和合法的方式使用网站和服务。禁止以下行为：",
+        "items": [
+          "尝试访问受限或受保护区域。",
+          "进行黑客攻击或恶意代码注入。",
+          "以欺诈或非法目的使用平台。"
+        ]
+      },
+      {
+        "number": "4",
+        "subtitle": "知识产权",
+        "text": "所有内容、设计、徽标、文本、图像和软件均归LOGENIK所有，并受适用的知识产权法律保护。"
+      },
+      {
+        "number": "5",
+        "subtitle": "责任",
+        "text": "LOGENIK不对以下事项负责：",
+        "items": [
+          "因使用网站产生的直接或间接损失。",
+          "系统错误或故障导致的信息丢失。",
+          "第三方行为影响服务可用性。"
+        ]
+      },
+      {
+        "number": "6",
+        "subtitle": "付款和服务",
+        "text": "每个项目或在线销售的付款和交付条款单独约定。对于经常性服务（如托管或维护），将根据合同收取费用。"
+      },
+      {
+        "number": "7",
+        "subtitle": "修改",
+        "text": "LOGENIK可随时更新这些条款。更改将在网站上发布，并在发布后立即生效。"
+      },
+      {
+        "number": "8",
+        "subtitle": "联系方式",
+        "text": "如有疑问、澄清或法律通知，请联系：",
+        "items": [
+          "<a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>"
+        ]
+      }
+    ]
+  },
+
+  "preguntas_frecuentes": {
+    "title": "常见问题 – LOGENIK",
+    "date": "最后更新：2025年10月23日",
+    "intro": "在这里，您将找到有关LOGENIK服务、流程和政策的常见问题解答。如果找不到您需要的信息，请联系 <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>。",
+    "questions": [
+      {
+        "number": 1,
+        "question": "LOGENIK提供哪些服务？",
+        "answer": "LOGENIK提供定制网站和软件开发、IT咨询、技术支持和维护。未来还将提供在线产品销售。"
+      },
+      {
+        "number": 2,
+        "question": "一个项目需要多久？",
+        "answer": "交付时间取决于项目类型和范围。我们将在了解贵公司的完整需求后提供预计时间。"
+      },
+      {
+        "number": 3,
+        "question": "维护或技术支持包含什么？",
+        "answer": "包括系统更新、安全监控、错误修复以及根据所签计划通过电子邮件或电话提供技术支持。"
+      },
+      {
+        "number": 4,
+        "question": "我如何申请报价？",
+        "answer": "请填写网站上的联系表格，或将项目详情和需求发送至 <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>。"
+      },
+      {
+        "number": 5,
+        "question": "我的数据安全吗？",
+        "answer": "是的。我们根据《联邦个人数据保护法（LFPDPPP）》保护您的个人数据，并实施内部安全措施。"
+      },
+      {
+        "number": 6,
+        "question": "我可以取消服务或在线订单吗？",
+        "answer": "可以。取消条件在相应合同或销售协议中规定，取决于服务或产品类型。"
+      },
+      {
+        "number": 7,
+        "question": "客户咨询如何回复？",
+        "answer": "我们会在最多24个工作小时内通过电子邮件或电话回复所有请求。我们的目标是提供快速且个性化的支持。"
+      },
+      {
+        "number": 8,
+        "question": "你们的服务有保证吗？",
+        "answer": "是的，所有服务均提供质量保证和交付后支持。具体持续时间和条件取决于所签项目类型。"
+      },
+      {
+        "number": 9,
+        "question": "你们与国际客户合作吗？",
+        "answer": "是的，LOGENIK为全球企业和创业者提供服务，适应不同的时区和沟通需求。"
+      },
+      {
+        "number": 10,
+        "question": "在项目开发过程中可以要求修改吗？",
+        "answer": "可以，您可以在开发过程中提出调整或修改。更改会根据项目范围进行管理，可能会影响最终时间和成本。"
+      }
+    ]
+  },
+
   "footer": {
     "quick_links": "快速链接",
     "social": "社交媒体",
-    "contact": "联系方式",
-    "rights_reserved": "版权所有。"
+    "contact": "联系",
+    "rights_reserved": "版权所有。",
+    "description": "我们将创意转化为创新的数字解决方案。您值得信赖的技术合作伙伴，助力企业成功。",
+    "legal": {
+      "title": "法律信息",
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "faq": "常见问题"
+    }
   }
 }

@@ -19,8 +19,8 @@
   },
 
   "cardContact": {
-    "ctaTitle": "Vous avez un projet en tête ?",
-    "ctaText": "Nous sommes fiers de notre capacité à obtenir des résultats et à dépasser les attentes. Parlez-nous de vos besoins en remplissant le formulaire ci-dessous. Notre équipe vous contactera dès que possible pour vous aider à porter votre projet au niveau supérieur.",
+    "ctaTitle": "Vous avez une idée prête à décoller ?",
+    "ctaText": "Nous transformons les idées en expériences numériques uniques. Partagez votre vision et notre équipe la concrétisera avec des résultats exceptionnels.",
     "ctaButton": "Contactez-nous"
   },
 
@@ -97,6 +97,54 @@
         ],
         "strong": "Connectez et automatisez votre entreprise pour gagner du temps et maximiser vos résultats.",
         "label": "Intégrations et automatisations"
+      }
+    ]
+  },
+
+  "metodology": {
+    "subtitle": "Gestion stratégique",
+    "title": "Transformez votre activité avec",
+    "highlight": "méthodologies",
+    "title_end": "éprouvées",
+    "image_alt": "Graphique de gestion d'entreprise",
+    "list": [
+      {
+        "title": "Culture agile appliquée aux équipes IT",
+        "text": "Mettez en place des sprints, des tableaux Kanban et une validation continue pour accélérer les résultats sans perdre le contrôle."
+      },
+      {
+        "title": "Services IT avec approche ITIL",
+        "text": "Standardisez les processus, améliorez le support client et réduisez les temps de réponse avec des pratiques reconnues mondialement."
+      },
+      {
+        "title": "Contrôle total sur chaque phase du projet",
+        "text": "Planifiez, documentez et exécutez avec précision, en garantissant des livraisons alignées aux exigences initiales."
+      }
+    ],
+    "items": [
+      {
+        "icon": "bi-journal-text",
+        "bgClass": "bg-primary",
+        "title": "Learn",
+        "text": "Acquérez des compétences numériques utiles avec des ressources claires et applicables."
+      },
+      {
+        "icon": "bi-lightning",
+        "bgClass": "bg-accent",
+        "title": "Agile",
+        "text": "Itérez rapidement, collaborez mieux et adaptez les solutions en temps réel."
+      },
+      {
+        "icon": "bi-diagram-3",
+        "bgClass": "bg-variado1",
+        "title": "Waterfall",
+        "text": "Définissez des phases séquentielles pour des projets aux exigences bien structurées."
+      },
+      {
+        "icon": "bi-hdd-network",
+        "bgClass": "bg-variado2",
+        "title": "ITIL",
+        "text": "Gérez les services IT avec des processus standardisés et une amélioration continue."
       }
     ]
   },
@@ -332,7 +380,7 @@
   "aboutExperiencesSection": {
     "items": [
       {
-        "value": 15,
+        "value": 20,
         "label": "projets réalisés"
       },
       {
@@ -340,7 +388,7 @@
         "label": "Clients"
       },
       {
-        "value": 10,
+        "value": 5,
         "label": "Années d'expérience"
       },
       {
@@ -402,7 +450,15 @@
         "other": "Autre"
       },
       "message": "Message",
-      "submit": "Envoyer le message"
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "successMessage": "Message envoyé avec succès ! Nous vous contacterons bientôt.",
+      "errorMessage": "Une erreur s'est produite lors de l'envoi du message. Veuillez réessayer plus tard.",
+      "errorIncomplete": "Veuillez compléter tous les champs obligatoires.",
+      "validation": {
+        "required": "Ce champ est obligatoire",
+        "invalidEmail": "Veuillez entrer un email valide"
+      }
     }
   },
 
@@ -438,10 +494,198 @@
     ]
   },
 
+  "politica_privacidad": {
+    "title": "Politique de confidentialité – LOGENIK",
+    "date": "Dernière mise à jour : 23 octobre 2025",
+    "iconClass": "bi bi-shield-lock-fill color-primary",
+    "intro": "Chez LOGENIK, nous attachons de l'importance à votre vie privée et nous engageons à protéger vos données personnelles conformément à la Loi fédérale sur la protection des données personnelles en possession des particuliers (LFPDPPP) et aux meilleures pratiques internationales.",
+    "sections": [
+      {
+        "number": "1",
+        "subtitle": "Données que nous collectons",
+        "text": "Nous pouvons collecter des informations personnelles lorsque vous interagissez avec notre site Web ou nos services :",
+        "items": [
+          "Nom complet, adresse e-mail, numéro de téléphone.",
+          "Informations de contact soumises via des formulaires ou des devis.",
+          "Données de facturation et d'achat en cas de ventes en ligne futures.",
+          "Informations sur votre entreprise ou projet lorsque vous demandez des services professionnels."
+        ]
+      },
+      {
+        "number": "2",
+        "subtitle": "Utilisation de vos données",
+        "text": "Les données collectées sont utilisées exclusivement pour :",
+        "items": [
+          "Vous contacter concernant des demandes d'informations ou des devis.",
+          "Fournir et améliorer nos services.",
+          "Envoyer des notifications, des promotions ou des informations pertinentes sur LOGENIK.",
+          "Respecter les obligations légales et fiscales."
+        ]
+      },
+      {
+        "number": "3",
+        "subtitle": "Partage des données",
+        "text": "Nous ne vendons ni ne partageons vos données avec des tiers extérieurs à LOGENIK, sauf :",
+        "items": [
+          "Avec des prestataires de services liés (par exemple, hébergement ou marketing par e-mail).",
+          "En vertu d'une obligation légale ou d'une demande d'une autorité compétente."
+        ]
+      },
+      {
+        "number": "4",
+        "subtitle": "Sécurité",
+        "text": "Nous mettons en œuvre des mesures techniques et administratives pour protéger vos données contre la perte, l'accès non autorisé, l'altération ou la divulgation."
+      },
+      {
+        "number": "5",
+        "subtitle": "Droits ARCO",
+        "text": "Vous avez le droit d'Accéder, Rectifier, Annuler et vous Opposer (ARCO) au traitement de vos données personnelles. Pour exercer ces droits, contactez-nous à <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>."
+      },
+      {
+        "number": "6",
+        "subtitle": "Modifications de la politique",
+        "text": "LOGENIK peut mettre à jour cette politique à tout moment. Il est recommandé de consulter cette section périodiquement."
+      }
+    ]
+  },
+
+  "terminos_servicio": {
+    "title": "Conditions d'utilisation – LOGENIK",
+    "date": "Dernière mise à jour : 23 octobre 2025",
+    "iconClass": "bi bi-file-earmark-text-fill color-primary",
+    "intro": "En utilisant notre site Web et nos services, vous acceptez les termes et conditions établis par LOGENIK. Ces termes définissent les règles d'utilisation, les responsabilités et les droits entre l'entreprise et nos utilisateurs ou clients.",
+    "sections": [
+      {
+        "number": "1",
+        "subtitle": "Acceptation",
+        "text": "En accédant et en utilisant ce site Web, vous acceptez de respecter ces Conditions d'utilisation. Si vous n'êtes pas d'accord, veuillez vous abstenir d'utiliser les services LOGENIK."
+      },
+      {
+        "number": "2",
+        "subtitle": "Services",
+        "text": "LOGENIK propose une large gamme de services technologiques, y compris :",
+        "items": [
+          "Développement web et logiciel sur mesure.",
+          "Conseil informatique et support technique.",
+          "Hébergement et maintenance.",
+          "À l'avenir, vente de produits et services en ligne."
+        ]
+      },
+      {
+        "number": "3",
+        "subtitle": "Utilisation du site",
+        "text": "L'utilisateur s'engage à utiliser le site et les services de manière responsable et légale. Il est interdit de :",
+        "items": [
+          "Tenter d'accéder à des zones restreintes ou protégées du site.",
+          "Effectuer du hacking ou l'injection de code malveillant.",
+          "Utiliser la plateforme à des fins frauduleuses ou illégales."
+        ]
+      },
+      {
+        "number": "4",
+        "subtitle": "Propriété intellectuelle",
+        "text": "Tous les contenus, designs, logos, textes, images et logiciels appartiennent à LOGENIK et sont protégés par les lois applicables sur la propriété intellectuelle."
+      },
+      {
+        "number": "5",
+        "subtitle": "Responsabilité",
+        "text": "LOGENIK ne sera pas responsable de :",
+        "items": [
+          "Domages directs ou indirects résultant de l'utilisation du site.",
+          "Perte d'informations causée par des erreurs ou des pannes du système.",
+          "Actes de tiers affectant la disponibilité du service."
+        ]
+      },
+      {
+        "number": "6",
+        "subtitle": "Paiements et services",
+        "text": "Les conditions de paiement et de livraison sont convenues individuellement pour chaque projet ou vente en ligne. Pour les services récurrents (comme l'hébergement ou la maintenance), des frais s'appliqueront selon le contrat."
+      },
+      {
+        "number": "7",
+        "subtitle": "Modifications",
+        "text": "LOGENIK peut mettre à jour ces termes à tout moment. Les modifications seront publiées sur le site et prendront effet immédiatement après leur publication."
+      },
+      {
+        "number": "8",
+        "subtitle": "Contact",
+        "text": "Pour toute question, clarification ou avis légal, contactez-nous à :",
+        "items": [
+          "<a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>"
+        ]
+      }
+    ]
+  },
+
+  "preguntas_frecuentes": {
+    "title": "Questions Fréquemment Posées – LOGENIK",
+    "date": "Dernière mise à jour : 23 octobre 2025",
+    "intro": "Vous trouverez ici les réponses aux questions les plus fréquentes concernant nos services, processus et politiques chez LOGENIK. Si vous ne trouvez pas ce que vous cherchez, contactez-nous à <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>.",
+    "questions": [
+      {
+        "number": 1,
+        "question": "Quels services propose LOGENIK ?",
+        "answer": "LOGENIK propose le développement web et logiciel sur mesure, le conseil en informatique, le support technique et la maintenance. À l'avenir, nous proposerons également la vente de produits en ligne."
+      },
+      {
+        "number": 2,
+        "question": "Combien de temps dure un projet ?",
+        "answer": "Le délai dépend du type et de l'ampleur du projet. Nous fournissons des estimations après avoir examiné les exigences complètes de votre entreprise ou société."
+      },
+      {
+        "number": 3,
+        "question": "Que comprend la maintenance ou le support technique ?",
+        "answer": "Cela comprend la mise à jour des systèmes, la surveillance de la sécurité, la correction des erreurs et le support technique par email ou téléphone selon le plan souscrit."
+      },
+      {
+        "number": 4,
+        "question": "Comment puis-je demander un devis ?",
+        "answer": "Remplissez notre formulaire de contact sur le site Web ou envoyez un email à <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a> avec les détails de votre projet et vos besoins."
+      },
+      {
+        "number": 5,
+        "question": "Mes données seront-elles sécurisées ?",
+        "answer": "Oui. Nous protégeons vos données personnelles conformément à la Loi fédérale sur la protection des données personnelles en possession des particuliers (LFPDPPP) et appliquons des mesures de sécurité internes."
+      },
+      {
+        "number": 6,
+        "question": "Puis-je annuler un service ou une commande en ligne ?",
+        "answer": "Oui. Les conditions d'annulation sont établies dans le contrat ou accord de vente correspondant, selon le type de service ou produit."
+      },
+      {
+        "number": 7,
+        "question": "Comment répondez-vous aux demandes des clients ?",
+        "answer": "Nous répondons à toutes les demandes par email ou téléphone dans un délai maximum de 24 heures ouvrables. Notre objectif est de fournir un support rapide et personnalisé."
+      },
+      {
+        "number": 8,
+        "question": "Offrez-vous une garantie sur vos services ?",
+        "answer": "Oui, tous nos services bénéficient d'une garantie de qualité et d'un support après livraison. La durée et les conditions spécifiques dépendent du type de projet contracté."
+      },
+      {
+        "number": 9,
+        "question": "Travaillez-vous avec des clients internationaux ?",
+        "answer": "Oui, LOGENIK fournit des services aux entreprises et entrepreneurs du monde entier, en s'adaptant aux différents fuseaux horaires et besoins de communication."
+      },
+      {
+        "number": 10,
+        "question": "Puis-je demander des modifications pendant le développement du projet ?",
+        "answer": "Oui, vous pouvez demander des ajustements ou modifications pendant le développement. Les changements sont gérés selon l'étendue du projet et peuvent affecter le temps et le coût final."
+      }
+    ]
+  },
+
   "footer": {
     "quick_links": "Liens rapides",
     "social": "Réseaux sociaux",
     "contact": "Contact",
-    "rights_reserved": "Tous droits réservés."
+    "rights_reserved": "Tous droits réservés.",
+    "description": "Nous transformons les idées en solutions numériques innovantes. Votre partenaire technologique de confiance pour le succès de votre entreprise.",
+    "legal": {
+      "title": "Mentions légales",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "faq": "FAQ"
+    }
   }
 }
