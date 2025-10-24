@@ -1,5 +1,4 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { politicaPrivacidadData } from "../utils/helpers";
 import { useTranslation } from "react-i18next";
 
 export const PoliticaPrivacidad = () => {
@@ -50,16 +49,21 @@ export const PoliticaPrivacidad = () => {
                         {section.subtitle}
                       </h5>
 
-                      {section.text && (
+                      {/* {section.text && (
                         <p className="color-dark-65">{section.text}</p>
+                      )} */}
+
+                      {section.text && (
+                        <p
+                          dangerouslySetInnerHTML={{
+                            __html: section.text,
+                          }}></p>
                       )}
 
                       {section.items && (
                         <ul className="mb-0">
                           {section.items.map((item, idx) => (
-                            <li key={idx} className="color-dark-65 small">
-                              {item}
-                            </li>
+                            <li key={idx}>{item}</li>
                           ))}
                         </ul>
                       )}

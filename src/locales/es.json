@@ -388,7 +388,7 @@
         "label": "Clientes"
       },
       {
-        "value": 10,
+        "value": 5,
         "label": "Años de experiencia"
       },
       {
@@ -538,7 +538,7 @@
       {
         "number": "5",
         "subtitle": "Derechos ARCO",
-        "text": "Tienes derecho a Acceder, Rectificar, Cancelar y Oponerte (ARCO) al tratamiento de tus datos personales. Para ejercerlos, contáctanos en contact@logenik.net."
+        "text": "Tienes derecho a Acceder, Rectificar, Cancelar y Oponerte (ARCO) al tratamiento de tus datos personales. Para ejercerlos, contáctanos en <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>."
       },
       {
         "number": "6",
@@ -609,7 +609,9 @@
         "number": "8",
         "subtitle": "Contacto",
         "text": "Para dudas, aclaraciones o avisos legales, contáctanos en:",
-        "items": ["contact@logenik.net"]
+        "items": [
+          "<a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>"
+        ]
       }
     ]
   },
@@ -617,7 +619,7 @@
   "preguntas_frecuentes": {
     "title": "Preguntas Frecuentes – LOGENIK",
     "date": "Última actualización: 23 de octubre de 2025",
-    "intro": "Aquí encontrarás las respuestas a las preguntas más comunes sobre nuestros servicios, procesos y políticas en LOGENIK. Si no encuentras lo que buscas, contáctanos en contact@logenik.net.",
+    "intro": "Aquí encontrarás las respuestas a las preguntas más comunes sobre nuestros servicios, procesos y políticas en LOGENIK. Si no encuentras lo que buscas, contáctanos en <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>.",
     "questions": [
       {
         "number": 1,
@@ -637,7 +639,7 @@
       {
         "number": 4,
         "question": "¿Cómo puedo solicitar una cotización?",
-        "answer": "Rellena nuestro formulario de contacto en el sitio web o envía un correo a contact@logenik.net con los detalles de tu proyecto y requerimientos."
+        "answer": "Rellena nuestro formulario de contacto en el sitio web o envía un correo a <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a> con los detalles de tu proyecto y requerimientos."
       },
       {
         "number": 5,

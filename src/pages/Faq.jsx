@@ -1,5 +1,4 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { preguntasFrecuentesData } from "../utils/helpers";
 import { useTranslation } from "react-i18next";
 
 export const Faq = () => {
@@ -54,7 +53,10 @@ export const Faq = () => {
                       </h5>
 
                       {section.answer && (
-                        <p className="color-dark-65">{section.answer}</p>
+                        <p
+                          dangerouslySetInnerHTML={{
+                            __html: section.answer,
+                          }}></p>
                       )}
                     </div>
                   </Col>

@@ -376,7 +376,7 @@ export const Inicio = () => {
           </Container>
         </section>
 
-        <section className="py-5 overflow-hidden">
+        {/* <section className="py-5 overflow-hidden">
           <Container className="py-5">
             <Row className="gy-5">
               <Col lg="6" md="8" className="mx-auto text-center">
@@ -516,7 +516,7 @@ export const Inicio = () => {
               )}
             </Row>
           </Container>
-        </section>
+        </section> */}
       </main>
     </>
   );

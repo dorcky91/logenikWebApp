@@ -388,7 +388,7 @@
         "label": "Clients"
       },
       {
-        "value": 10,
+        "value": 5,
         "label": "Années d'expérience"
       },
       {
@@ -539,7 +539,7 @@
       {
         "number": "5",
         "subtitle": "Droits ARCO",
-        "text": "Vous avez le droit d'Accéder, Rectifier, Annuler et vous Opposer (ARCO) au traitement de vos données personnelles. Pour exercer ces droits, contactez-nous à contact@logenik.net."
+        "text": "Vous avez le droit d'Accéder, Rectifier, Annuler et vous Opposer (ARCO) au traitement de vos données personnelles. Pour exercer ces droits, contactez-nous à <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>."
       },
       {
         "number": "6",
@@ -610,7 +610,9 @@
         "number": "8",
         "subtitle": "Contact",
         "text": "Pour toute question, clarification ou avis légal, contactez-nous à :",
-        "items": ["contact@logenik.net"]
+        "items": [
+          "<a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>"
+        ]
       }
     ]
   },
@@ -618,7 +620,7 @@
   "preguntas_frecuentes": {
     "title": "Questions Fréquemment Posées – LOGENIK",
     "date": "Dernière mise à jour : 23 octobre 2025",
-    "intro": "Vous trouverez ici les réponses aux questions les plus fréquentes concernant nos services, processus et politiques chez LOGENIK. Si vous ne trouvez pas ce que vous cherchez, contactez-nous à contact@logenik.net.",
+    "intro": "Vous trouverez ici les réponses aux questions les plus fréquentes concernant nos services, processus et politiques chez LOGENIK. Si vous ne trouvez pas ce que vous cherchez, contactez-nous à <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>.",
     "questions": [
       {
         "number": 1,
@@ -638,7 +640,7 @@
       {
         "number": 4,
         "question": "Comment puis-je demander un devis ?",
-        "answer": "Remplissez notre formulaire de contact sur le site Web ou envoyez un email à contact@logenik.net avec les détails de votre projet et vos besoins."
+        "answer": "Remplissez notre formulaire de contact sur le site Web ou envoyez un email à <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a> avec les détails de votre projet et vos besoins."
       },
       {
         "number": 5,

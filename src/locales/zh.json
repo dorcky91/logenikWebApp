@@ -388,7 +388,7 @@
         "label": "客户"
       },
       {
-        "value": 10,
+        "value": 5,
         "label": "经验年数"
       },
       {
@@ -539,7 +539,7 @@
       {
         "number": "5",
         "subtitle": "ARCO权利",
-        "text": "您有权访问、修改、取消和反对（ARCO）处理您的个人数据。如欲行使这些权利，请通过contact@logenik.net与我们联系。"
+        "text": "您有权访问、修改、取消和反对（ARCO）处理您的个人数据。如欲行使这些权利，请通过<a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>与我们联系。"
       },
       {
         "number": "6",
@@ -610,7 +610,9 @@
         "number": "8",
         "subtitle": "联系方式",
         "text": "如有疑问、澄清或法律通知，请联系：",
-        "items": ["contact@logenik.net"]
+        "items": [
+          "<a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>"
+        ]
       }
     ]
   },
@@ -618,7 +620,7 @@
   "preguntas_frecuentes": {
     "title": "常见问题 – LOGENIK",
     "date": "最后更新：2025年10月23日",
-    "intro": "在这里，您将找到有关LOGENIK服务、流程和政策的常见问题解答。如果找不到您需要的信息，请联系 contact@logenik.net。",
+    "intro": "在这里，您将找到有关LOGENIK服务、流程和政策的常见问题解答。如果找不到您需要的信息，请联系 <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>。",
     "questions": [
       {
         "number": 1,
@@ -638,7 +640,7 @@
       {
         "number": 4,
         "question": "我如何申请报价？",
-        "answer": "请填写网站上的联系表格，或将项目详情和需求发送至 contact@logenik.net。"
+        "answer": "请填写网站上的联系表格，或将项目详情和需求发送至 <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>。"
       },
       {
         "number": 5,

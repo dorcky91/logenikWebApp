@@ -388,7 +388,7 @@
         "label": "Kliyan"
       },
       {
-        "value": 10,
+        "value": 5,
         "label": "Ane eksperyans"
       },
       {
@@ -539,7 +539,7 @@
       {
         "number": "5",
         "subtitle": "Dwa ARCO",
-        "text": "Ou gen dwa Aksè, Rektifye, Anile ak Opoze (ARCO) sou tretman done pèsonèl ou yo. Pou egzekite dwa sa yo, kontakte nou nan contact@logenik.net."
+        "text": "Ou gen dwa Aksè, Rektifye, Anile ak Opoze (ARCO) sou tretman done pèsonèl ou yo. Pou egzekite dwa sa yo, kontakte nou nan <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>."
       },
       {
         "number": "6",
@@ -610,7 +610,9 @@
         "number": "8",
         "subtitle": "Kontak",
         "text": "Pou kesyon, klarifikasyon oswa avi legal, kontakte nou nan:",
-        "items": ["contact@logenik.net"]
+        "items": [
+          "<a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>"
+        ]
       }
     ]
   },
@@ -618,7 +620,7 @@
   "preguntas_frecuentes": {
     "title": "Kesyon Yo Poze Souvan – LOGENIK",
     "date": "Dènye mizajou: 23 oktòb 2025",
-    "intro": "Isit la w ap jwenn repons pou kesyon ki pi komen sou sèvis, pwosesis ak politik LOGENIK yo. Si ou pa jwenn sa w ap chèche a, kontakte nou nan contact@logenik.net.",
+    "intro": "Isit la w ap jwenn repons pou kesyon ki pi komen sou sèvis, pwosesis ak politik LOGENIK yo. Si ou pa jwenn sa w ap chèche a, kontakte nou nan <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>.",
     "questions": [
       {
         "number": 1,
@@ -638,7 +640,7 @@
       {
         "number": 4,
         "question": "Kijan mwen ka mande yon sitasyon?",
-        "answer": "Ranpli fòm kontak nou sou sit entènèt la oswa voye yon imel nan contact@logenik.net ak detay pwojè ou ak bezwen ou yo."
+        "answer": "Ranpli fòm kontak nou sou sit entènèt la oswa voye yon imel nan <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a> ak detay pwojè ou ak bezwen ou yo."
       },
       {
         "number": 5,

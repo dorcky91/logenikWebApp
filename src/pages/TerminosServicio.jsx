@@ -1,5 +1,4 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { terminosServicioData } from "../utils/helpers";
 import { useTranslation } from "react-i18next";
 
 export const TerminosServicio = () => {
@@ -58,9 +57,9 @@ export const TerminosServicio = () => {
                       {section.items && (
                         <ul className="mb-0">
                           {section.items.map((item, idx) => (
-                            <li key={idx} className="color-dark-65 small">
-                              {item}
-                            </li>
+                            <li
+                              key={idx}
+                              dangerouslySetInnerHTML={{ __html: item }}></li>
                           ))}
                         </ul>
                       )}

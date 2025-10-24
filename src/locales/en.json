@@ -385,7 +385,7 @@
         "label": "Clients"
       },
       {
-        "value": 10,
+        "value": 5,
         "label": "Years of experience"
       },
       {
@@ -536,7 +536,7 @@
       {
         "number": "5",
         "subtitle": "ARCO Rights",
-        "text": "You have the right to Access, Rectify, Cancel, and Object (ARCO) to the processing of your personal data. To exercise these rights, contact us at contact@logenik.net."
+        "text": "You have the right to Access, Rectify, Cancel, and Object (ARCO) to the processing of your personal data. To exercise these rights, contact us at <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>."
       },
       {
         "number": "6",
@@ -607,7 +607,9 @@
         "number": "8",
         "subtitle": "Contact",
         "text": "For questions, clarifications, or legal notices, contact us at:",
-        "items": ["contact@logenik.net"]
+        "items": [
+          "<a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>"
+        ]
       }
     ]
   },
@@ -615,7 +617,7 @@
   "preguntas_frecuentes": {
     "title": "Frequently Asked Questions – LOGENIK",
     "date": "Last updated: October 23, 2025",
-    "intro": "Here you will find answers to the most common questions about our services, processes, and policies at LOGENIK. If you don't find what you're looking for, contact us at contact@logenik.net.",
+    "intro": "Here you will find answers to the most common questions about our services, processes, and policies at LOGENIK. If you don't find what you're looking for, contact us at <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>.",
     "questions": [
       {
         "number": 1,
@@ -635,7 +637,7 @@
       {
         "number": 4,
         "question": "How can I request a quote?",
-        "answer": "Fill out our contact form on the website or send an email to contact@logenik.net with your project details and requirements."
+        "answer": "Fill out our contact form on the website or send an email to <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a> with your project details and requirements."
       },
       {
         "number": 5,
