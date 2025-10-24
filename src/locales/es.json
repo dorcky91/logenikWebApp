@@ -494,6 +494,184 @@
     ]
   },
 
+  "politica_privacidad": {
+    "title": "Política de Privacidad – LOGENIK",
+    "date": "Última actualización: 23 de octubre de 2025",
+    "intro": "En LOGENIK valoramos tu privacidad y nos comprometemos a proteger tus datos personales de acuerdo con la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP) y buenas prácticas internacionales.",
+    "sections": [
+      {
+        "number": "1",
+        "subtitle": "Datos que recolectamos",
+        "text": "Podemos recolectar información personal cuando interactúas con nuestro sitio web o servicios:",
+        "items": [
+          "Nombre completo, correo electrónico, teléfono.",
+          "Información de contacto enviada a través de formularios o cotizaciones.",
+          "Datos de facturación y compras en caso de ventas online futuras.",
+          "Información sobre tu empresa o proyecto cuando solicitas servicios profesionales."
+        ]
+      },
+      {
+        "number": "2",
+        "subtitle": "Uso de tus datos",
+        "text": "Los datos recolectados se usan exclusivamente para:",
+        "items": [
+          "Contactarte respecto a solicitudes de información o cotizaciones.",
+          "Proveer y mejorar nuestros servicios.",
+          "Enviar notificaciones, promociones o información relevante sobre LOGENIK.",
+          "Cumplir obligaciones legales y fiscales."
+        ]
+      },
+      {
+        "number": "3",
+        "subtitle": "Compartición de datos",
+        "text": "No vendemos ni compartimos tus datos con terceros ajenos a LOGENIK, salvo:",
+        "items": [
+          "Con proveedores de servicios relacionados (por ejemplo, hosting o email marketing).",
+          "Por obligación legal o requerimiento de autoridad competente."
+        ]
+      },
+      {
+        "number": "4",
+        "subtitle": "Seguridad",
+        "text": "Implementamos medidas técnicas y administrativas para proteger tus datos contra pérdida, acceso no autorizado, alteración o divulgación."
+      },
+      {
+        "number": "5",
+        "subtitle": "Derechos ARCO",
+        "text": "Tienes derecho a Acceder, Rectificar, Cancelar y Oponerte (ARCO) al tratamiento de tus datos personales. Para ejercerlos, contáctanos en contact@logenik.net."
+      },
+      {
+        "number": "6",
+        "subtitle": "Cambios en la Política",
+        "text": "LOGENIK puede actualizar esta política en cualquier momento. Se recomienda revisar periódicamente esta sección."
+      }
+    ]
+  },
+
+  "terminos_servicio": {
+    "title": "Términos de Servicio – LOGENIK",
+    "date": "Última actualización: 23 de octubre de 2025",
+    "iconClass": "bi bi-file-earmark-text-fill color-primary",
+    "intro": "Al utilizar nuestro sitio web y servicios, aceptas los presentes términos y condiciones establecidos por LOGENIK. Estos términos definen las reglas de uso, responsabilidades y derechos entre la empresa y nuestros usuarios o clientes.",
+    "sections": [
+      {
+        "number": "1",
+        "subtitle": "Aceptación",
+        "text": "Al acceder y utilizar este sitio web, aceptas cumplir con estos Términos de Servicio. Si no estás de acuerdo, por favor abstente de utilizar los servicios de LOGENIK."
+      },
+      {
+        "number": "2",
+        "subtitle": "Servicios",
+        "text": "LOGENIK ofrece una amplia gama de servicios tecnológicos, incluyendo:",
+        "items": [
+          "Desarrollo web y software a medida.",
+          "Consultoría IT y soporte técnico.",
+          "Hosting y mantenimiento.",
+          "En el futuro, venta de productos y servicios online."
+        ]
+      },
+      {
+        "number": "3",
+        "subtitle": "Uso del sitio",
+        "text": "El usuario se compromete a utilizar el sitio y los servicios de manera responsable y legal. No está permitido:",
+        "items": [
+          "Intentar acceder a áreas restringidas o protegidas del sitio.",
+          "Realizar actos de hacking o inyección de código malicioso.",
+          "Usar la plataforma con fines fraudulentos o ilícitos."
+        ]
+      },
+      {
+        "number": "4",
+        "subtitle": "Propiedad intelectual",
+        "text": "Todos los contenidos, diseños, logos, textos, imágenes y software pertenecen a LOGENIK y están protegidos por las leyes de propiedad intelectual aplicables."
+      },
+      {
+        "number": "5",
+        "subtitle": "Responsabilidad",
+        "text": "LOGENIK no será responsable por:",
+        "items": [
+          "Daños directos o indirectos derivados del uso del sitio.",
+          "Pérdida de información causada por errores o caídas del sistema.",
+          "Actos de terceros que afecten la disponibilidad del servicio."
+        ]
+      },
+      {
+        "number": "6",
+        "subtitle": "Pagos y servicios",
+        "text": "Los términos de pago y entrega se acuerdan individualmente para cada proyecto o venta online. En servicios recurrentes (como hosting o mantenimiento), se aplicarán cargos según contrato."
+      },
+      {
+        "number": "7",
+        "subtitle": "Modificaciones",
+        "text": "LOGENIK puede actualizar estos términos en cualquier momento. Los cambios se publicarán en el sitio web y serán efectivos inmediatamente tras su publicación."
+      },
+      {
+        "number": "8",
+        "subtitle": "Contacto",
+        "text": "Para dudas, aclaraciones o avisos legales, contáctanos en:",
+        "items": ["contact@logenik.net"]
+      }
+    ]
+  },
+
+  "preguntas_frecuentes": {
+    "title": "Preguntas Frecuentes – LOGENIK",
+    "date": "Última actualización: 23 de octubre de 2025",
+    "intro": "Aquí encontrarás las respuestas a las preguntas más comunes sobre nuestros servicios, procesos y políticas en LOGENIK. Si no encuentras lo que buscas, contáctanos en contact@logenik.net.",
+    "questions": [
+      {
+        "number": 1,
+        "question": "¿Qué servicios ofrece LOGENIK?",
+        "answer": "LOGENIK ofrece desarrollo web y software a medida, consultoría IT, soporte técnico y mantenimiento. En el futuro también contaremos con venta de productos online."
+      },
+      {
+        "number": 2,
+        "question": "¿Cuánto tarda un proyecto?",
+        "answer": "El tiempo de entrega depende del tipo y alcance del proyecto. Cotizamos tiempos estimados tras conocer los requerimientos completos de tu empresa o negocio."
+      },
+      {
+        "number": 3,
+        "question": "¿Qué incluye el mantenimiento o soporte técnico?",
+        "answer": "Incluye actualización de sistemas, monitoreo de seguridad, corrección de errores y soporte técnico vía correo electrónico o llamadas según el plan contratado."
+      },
+      {
+        "number": 4,
+        "question": "¿Cómo puedo solicitar una cotización?",
+        "answer": "Rellena nuestro formulario de contacto en el sitio web o envía un correo a contact@logenik.net con los detalles de tu proyecto y requerimientos."
+      },
+      {
+        "number": 5,
+        "question": "¿Mis datos estarán seguros?",
+        "answer": "Sí. Protegemos tus datos personales conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP) y aplicamos medidas internas de seguridad."
+      },
+      {
+        "number": 6,
+        "question": "¿Puedo cancelar un servicio o pedido online?",
+        "answer": "Sí. Las condiciones de cancelación se establecen en el contrato o acuerdo de venta correspondiente, dependiendo del tipo de servicio o producto."
+      },
+      {
+        "number": 7,
+        "question": "¿Cómo responden las consultas de clientes?",
+        "answer": "Respondemos todas las solicitudes por correo o teléfono en un plazo máximo de 24 horas hábiles. Nuestro objetivo es ofrecer soporte rápido y personalizado."
+      },
+      {
+        "number": 8,
+        "question": "¿Ofrecen garantía en sus servicios?",
+        "answer": "Sí, todos nuestros servicios cuentan con garantía de calidad y soporte post-entrega. La duración y condiciones específicas dependen del tipo de proyecto contratado."
+      },
+      {
+        "number": 9,
+        "question": "¿Trabajan con clientes internacionales?",
+        "answer": "Sí, LOGENIK ofrece servicios a empresas y emprendedores de todo el mundo, adaptándonos a diferentes husos horarios y necesidades de comunicación."
+      },
+      {
+        "number": 10,
+        "question": "¿Puedo solicitar cambios durante el desarrollo del proyecto?",
+        "answer": "Sí, puedes solicitar ajustes o modificaciones durante el desarrollo. Los cambios se gestionan según el alcance del proyecto y pueden afectar el tiempo y costo final."
+      }
+    ]
+  },
+
   "footer": {
     "quick_links": "Enlaces rápidos",
     "social": "Redes sociales",

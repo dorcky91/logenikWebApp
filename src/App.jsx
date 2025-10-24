@@ -8,6 +8,9 @@ import { Services } from "./pages/Services";
 import { About } from "./pages/About";
 import { Error } from "./pages/Error";
 import { useEffect } from "react";
+import { PoliticaPrivacidad } from "./pages/PoliticaPrivacidad";
+import { TerminosServicio } from "./pages/TerminosServicio";
+import { Faq } from "./pages/Faq";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +32,18 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <Contacto />,
+      },
+      {
+        path: "politica-privacidad",
+        element: <PoliticaPrivacidad />,
+      },
+      {
+        path: "terminos-servicio",
+        element: <TerminosServicio />,
+      },
+      {
+        path: "faq",
+        element: <Faq />,
       },
       {
         path: "*",

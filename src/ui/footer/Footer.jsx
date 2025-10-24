@@ -46,13 +46,13 @@ export const Footer = () => {
               {t("footer.legal.title")}
             </p>
             <div className="d-flex flex-column gap-2">
-              <Link data-aos="fade-up" to="/">
+              <Link data-aos="fade-up" to="/politica-privacidad">
                 {t("footer.legal.privacy")}
               </Link>
-              <Link data-aos="fade-up" to="/">
+              <Link data-aos="fade-up" to="/terminos-servicio">
                 {t("footer.legal.terms")}
               </Link>
-              <Link data-aos="fade-up" to="/">
+              <Link data-aos="fade-up" to="/faq">
                 {t("footer.legal.faq")}
               </Link>
             </div>

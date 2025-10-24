@@ -292,6 +292,7 @@ h6 {
   font-size: 0.9rem;
   display: flex;
   align-items: center;
+
   justify-content: center;
   box-shadow: 0 0 0 4px #e8f6f4;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -391,9 +392,80 @@ input.form-control,
   transition: all 0.3s ease;
 }
 
+#politica-privacidad,
+#terminos-servicio {
+  .number-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(var(--accent));
+  }
+}
+
+#header-politica {
+  position: relative;
+  /* z-index: 10; */
+  height: 200px;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.95) 35%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.7) 65%
+    ),
+    url("https://img.freepik.com/free-photo/standard-quality-control-collage_23-2149631017.jpg")
+      no-repeat center center/cover;
+}
+
+#header-terminos {
+  position: relative;
+  /* z-index: 10; */
+  height: 200px;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.95) 35%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.7) 65%
+    ),
+    url("https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041854.jpg")
+      no-repeat center center/cover;
+}
+
+#header-faq {
+  position: relative;
+  /* z-index: 10; */
+  height: 200px;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.6) 35%,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.6) 65%
+    ),
+    url("https://img.freepik.com/free-photo/question-mark-query-information-support-service-graphic_53876-127470.jpg")
+      no-repeat center center/cover;
+}
+
+.header-txt {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  transform: translate(-50%, -50%); /* centra verticalmente */
+}
+
 @media (max-width: 991.98px) {
   .contact-card {
     transform: translateY(0);
+  }
+  .header-legal-title {
+    font-size: 20px;
+  }
+
+  .header-legal-descripcion {
+    font-size: 12px;
   }
 }
 
@@ -435,5 +507,9 @@ input.form-control,
 
   .animated-number {
     font-size: 1.5rem;
+  }
+
+  .header-txt {
+    width: 95%;
   }
 }

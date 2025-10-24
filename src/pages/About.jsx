@@ -1,7 +1,6 @@
 import { Card, Col, Container, Row } from "react-bootstrap";
 import "@/assets/About.css";
-import { cardNosotros, cascadeUp } from "../utils/helpers";
-import { motion } from "motion/react";
+import { cascadeUp } from "../utils/helpers";
 import AccentTag from "../ui/AccentTag";
 import { AnimatedCount } from "../components/AnimatedCount";
 import LazyVideo from "../components/LazyVideo";
