@@ -217,7 +217,7 @@ export const Services = () => {
                   {servicios.map((servicio, index) => (
                     <Col md="4" sm="6" key={index}>
                       <Card>
-                        <Card.Header className="position-relative">
+                        <Card.Header className="position-relative d-none d-md-block">
                           <div className="wrapper">
                             <div className="efecto-card-servicio">
                               <svg
@@ -257,6 +257,9 @@ export const Services = () => {
                           </div>
                         </Card.Header>
                         <Card.Body>
+                          <div className="d-md-none">
+                            <i className={`bi ${servicio.icono} fs-4`}></i>
+                          </div>
                           <p className="fw-bold mt-3 mb-2">{servicio.titulo}</p>
                           <small>{servicio.texto}</small>
                         </Card.Body>

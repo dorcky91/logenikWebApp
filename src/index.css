@@ -408,8 +408,7 @@ input.form-control,
 
 #header-politica {
   position: relative;
-  /* z-index: 10; */
-  height: 200px;
+  min-height: 200px;
   background: linear-gradient(
       90deg,
       rgba(0, 0, 0, 0.95) 35%,
@@ -422,8 +421,7 @@ input.form-control,
 
 #header-terminos {
   position: relative;
-  /* z-index: 10; */
-  height: 200px;
+  min-height: 200px;
   background: linear-gradient(
       90deg,
       rgba(0, 0, 0, 0.95) 35%,
@@ -436,8 +434,7 @@ input.form-control,
 
 #header-faq {
   position: relative;
-  /* z-index: 10; */
-  height: 200px;
+  min-height: 200px;
   background: linear-gradient(
       90deg,
       rgba(0, 0, 0, 0.6) 35%,
@@ -459,13 +456,6 @@ input.form-control,
 @media (max-width: 991.98px) {
   .contact-card {
     transform: translateY(0);
-  }
-  .header-legal-title {
-    font-size: 20px;
-  }
-
-  .header-legal-descripcion {
-    font-size: 12px;
   }
 }
 
@@ -507,9 +497,5 @@ input.form-control,
 
   .animated-number {
     font-size: 1.5rem;
-  }
-
-  .header-txt {
-    width: 95%;
   }
 }

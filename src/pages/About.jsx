@@ -119,7 +119,7 @@ export const About = () => {
                       {aboutTeam.cards.map((item, index) => (
                         <Col md="6" sm="6" key={index}>
                           <Card>
-                            <Card.Header className="position-relative">
+                            <Card.Header className="position-relative d-none d-md-block">
                               <div className="wrapper">
                                 <div className="efecto-card-servicio">
                                   <svg
@@ -161,6 +161,9 @@ export const About = () => {
                               </div>
                             </Card.Header>
                             <Card.Body>
+                              <div className="d-md-none">
+                                <i className={`bi ${item.icono} fs-4`}></i>
+                              </div>
                               <p className="fw-bold mt-3 mb-2">{item.titulo}</p>
                               <small>{item.texto}</small>
                             </Card.Body>

@@ -34,11 +34,11 @@ const router = createBrowserRouter([
         element: <Contacto />,
       },
       {
-        path: "politica-privacidad",
+        path: "privacy",
         element: <PoliticaPrivacidad />,
       },
       {
-        path: "terminos-servicio",
+        path: "terms",
         element: <TerminosServicio />,
       },
       {
