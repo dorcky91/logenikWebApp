@@ -21,3 +21,6 @@ If you are developing a production application, we recommend using TypeScript wi
 - npm i react-router
 - npm i motion
 - npm i i18next react-i18next
+- npm i aos
+- npm i @emailjs/browser
+- npm i react-toastify

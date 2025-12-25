@@ -19,8 +19,8 @@
   },
 
   "cardContact": {
-    "ctaTitle": "Èske ou gen yon pwojè nan tèt ou?",
-    "ctaText": "Nou fyè de kapasite nou pou nou reyalize rezilta epi depase atant yo. Rakonte nou sou bezwen ou yo lè w ranpli fòm ki anba a. Ekip nou an ap kontakte ou pi vit ke posib pou ede pote pwojè ou nan pwochen nivo a.",
+    "ctaTitle": "Ou gen yon lide ki pare pou pran vòl?",
+    "ctaText": "Nou transfòme lide an eksperyans dijital inik. Pataje vizyon ou, epi ekip nou an ap fè li tounen rezilta eksepsyonèl.",
     "ctaButton": "Kontakte nou"
   },
 
@@ -97,6 +97,54 @@
         ],
         "strong": "Konekte ak otomatize biznis ou pou ekonomize tan ak maksimize rezilta.",
         "label": "Entegrasyon ak otomatizasyon"
+      }
+    ]
+  },
+
+  "metodology": {
+    "subtitle": "Jesyon estratejik",
+    "title": "Transfòme operasyon ou ak",
+    "highlight": "metodoloji",
+    "title_end": "ki pwouve",
+    "image_alt": "Grafik jesyon biznis",
+    "list": [
+      {
+        "title": "Kiltiv ajil aplike pou ekip IT",
+        "text": "Aplike sprint, tablo Kanban ak validasyon kontinyèl pou akselere rezilta san pèdi kontwòl."
+      },
+      {
+        "title": "Sèvis IT avèk apwòch ITIL",
+        "text": "Estandardize pwosesis yo, amelyore sèvis kliyan epi redui tan repons ak pratik rekonèt mondyalman."
+      },
+      {
+        "title": "Kontwòl total sou chak faz pwojè a",
+        "text": "Planifye, dokimante ak egzekite avèk presizyon, asire livrezon yo aliyen ak kondisyon inisyal yo."
+      }
+    ],
+    "items": [
+      {
+        "icon": "bi-journal-text",
+        "bgClass": "bg-primary",
+        "title": "Learn",
+        "text": "Akwire konpetans dijital itil ak resous klè ak aplikab."
+      },
+      {
+        "icon": "bi-lightning",
+        "bgClass": "bg-accent",
+        "title": "Agile",
+        "text": "Itere vit, kolabore pi byen epi adapte solisyon an tan reyèl."
+      },
+      {
+        "icon": "bi-diagram-3",
+        "bgClass": "bg-variado1",
+        "title": "Waterfall",
+        "text": "Defini faz sekansyèl pou pwojè ki gen kondisyon byen estriktire."
+      },
+      {
+        "icon": "bi-hdd-network",
+        "bgClass": "bg-variado2",
+        "title": "ITIL",
+        "text": "Jere sèvis IT ak pwosesis estandadize ak amelyorasyon kontinyèl."
       }
     ]
   },
@@ -332,7 +380,7 @@
   "aboutExperiencesSection": {
     "items": [
       {
-        "value": 15,
+        "value": 20,
         "label": "pwojè fini"
       },
       {
@@ -340,7 +388,7 @@
         "label": "Kliyan"
       },
       {
-        "value": 10,
+        "value": 5,
         "label": "Ane eksperyans"
       },
       {
@@ -402,7 +450,15 @@
         "other": "Lòt"
       },
       "message": "Mesaj",
-      "submit": "Voye mesaj"
+      "submit": "Voye mesaj",
+      "sending": "Ap voye...",
+      "successMessage": "Mesaj voye avèk siksè! N'ap kontakte w byento.",
+      "errorMessage": "Yon erè te rive pandan voye mesaj la. Tanpri, eseye ankò pita.",
+      "errorIncomplete": "Tanpri ranpli tout sa ki obligatwa yo.",
+      "validation": {
+        "required": "Sa a obligatwa",
+        "invalidEmail": "Tanpri antre yon imèl valab"
+      }
     }
   },
 
@@ -438,10 +494,198 @@
     ]
   },
 
+  "politica_privacidad": {
+    "title": "Règleman sou Konfidansyalite – LOGENIK",
+    "date": "Dènye mizajou: 23 oktòb 2025",
+    "iconClass": "bi bi-shield-lock-fill color-primary",
+    "intro": "Nan LOGENIK, nou pran vi prive ou oserye epi nou angaje nou pou pwoteje done pèsonèl ou dapre Lwa Federal sou Pwoteksyon Done Pèsonèl nan Pòsè Partikilye (LFPDPPP) ak bon pratik entènasyonal.",
+    "sections": [
+      {
+        "number": "1",
+        "subtitle": "Done nou ranmase",
+        "text": "Nou ka ranmase enfòmasyon pèsonèl lè ou itilize sit entènèt oswa sèvis nou yo:",
+        "items": [
+          "Non konplè, imel, telefòn.",
+          "Enfòmasyon kontak ou voye atravè fòm oswa demann pri.",
+          "Done fakti ak acha pou lavant sou entènèt nan lavni.",
+          "Enfòmasyon sou konpayi oswa pwojè ou lè w ap mande sèvis pwofesyonèl."
+        ]
+      },
+      {
+        "number": "2",
+        "subtitle": "Itilizasyon done ou",
+        "text": "Done yo ranmase yo itilize sèlman pou:",
+        "items": [
+          "Kontakte ou sou demann enfòmasyon oswa pri.",
+          "Bay ak amelyore sèvis nou yo.",
+          "Voye notifikasyon, pwomosyon oswa enfòmasyon enpòtan sou LOGENIK.",
+          "Konfòme nou ak obligasyon legal ak fiskal."
+        ]
+      },
+      {
+        "number": "3",
+        "subtitle": "Pataje done yo",
+        "text": "Nou pa vann ni pataje done ou ak twazyèm pati ki pa nan LOGENIK, eksepte:",
+        "items": [
+          "Avèk founisè sèvis ki gen rapò (egzanp, hosting oswa imel maketing).",
+          "Dapre obligasyon legal oswa demann otorite ki gen konpetans."
+        ]
+      },
+      {
+        "number": "4",
+        "subtitle": "Sekirite",
+        "text": "Nou aplike mezi teknik ak administratif pou pwoteje done ou kont pèdi, aksè san otorizasyon, chanjman oswa divilgasyon."
+      },
+      {
+        "number": "5",
+        "subtitle": "Dwa ARCO",
+        "text": "Ou gen dwa Aksè, Rektifye, Anile ak Opoze (ARCO) sou tretman done pèsonèl ou yo. Pou egzekite dwa sa yo, kontakte nou nan <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>."
+      },
+      {
+        "number": "6",
+        "subtitle": "Chanjman nan règleman an",
+        "text": "LOGENIK ka mete ajou règleman sa a nenpòt ki lè. Nou rekòmande pou w revize seksyon sa a regilyèman."
+      }
+    ]
+  },
+
+  "terminos_servicio": {
+    "title": "Tèm Sèvis – LOGENIK",
+    "date": "Dènye mizajou: 23 oktòb 2025",
+    "iconClass": "bi bi-file-earmark-text-fill color-primary",
+    "intro": "Lè w itilize sit entènèt ak sèvis nou yo, ou dakò ak tèm ak kondisyon ki tabli pa LOGENIK. Tèm sa yo defini règ itilizasyon, responsabilite ak dwa ant konpayi an ak itilizatè oswa kliyan nou yo.",
+    "sections": [
+      {
+        "number": "1",
+        "subtitle": "Akseptasyon",
+        "text": "Lè w antre nan sit sa a epi itilize li, ou dakò pou respekte Tèm Sèvis sa yo. Si ou pa dakò, tanpri pa itilize sèvis LOGENIK yo."
+      },
+      {
+        "number": "2",
+        "subtitle": "Sèvis",
+        "text": "LOGENIK ofri yon gran varyete sèvis teknoloji, ki enkli:",
+        "items": [
+          "Devlopman entènèt ak lojisyèl sou mezi.",
+          "Konsiltasyon IT ak sipò teknik.",
+          "Hosting, antretyen ak maketing dijital.",
+          "Nan lavni, vann pwodwi ak sèvis sou entènèt."
+        ]
+      },
+      {
+        "number": "3",
+        "subtitle": "Itilizasyon sit la",
+        "text": "Itilizatè yo angaje yo itilize sit ak sèvis yo avèk responsablite ak legalite. Sa yo entèdi:",
+        "items": [
+          "Eseye jwenn aksè nan zòn restriksyon oswa pwoteje yo.",
+          "Fè aksyon hacking oswa enjeksyon kòd malveyan.",
+          "Itilize platfòm la pou objektif fwod oswa ilegal."
+        ]
+      },
+      {
+        "number": "4",
+        "subtitle": "Pwopriyete entelektyèl",
+        "text": "Tout kontni, desen, logo, tèks, imaj ak lojisyèl yo se pwopriyete LOGENIK epi yo pwoteje pa lwa pwopriyete entelektyèl ki aplikab yo."
+      },
+      {
+        "number": "5",
+        "subtitle": "Responsablite",
+        "text": "LOGENIK pap responsab pou:",
+        "items": [
+          "Domaj dirèk oswa endirèk ki soti nan itilizasyon sit la.",
+          "Pèt enfòmasyon ki koze pa erè oswa pann sistèm yo.",
+          "Aksyon twazyèm pati ki afekte disponiblite sèvis la."
+        ]
+      },
+      {
+        "number": "6",
+        "subtitle": "Peman ak sèvis",
+        "text": "Tèm peman ak livrezon yo dakò sou chak pwojè oswa vann sou entènèt. Pou sèvis repete (tankou hosting oswa antretyen), frè yo ap aplike selon kontra a."
+      },
+      {
+        "number": "7",
+        "subtitle": "Modifikasyon",
+        "text": "LOGENIK ka mete ajou tèm sa yo nenpòt ki lè. Chanjman yo ap pibliye sou sit la epi yo vin efikas imedyatman apre piblikasyon."
+      },
+      {
+        "number": "8",
+        "subtitle": "Kontak",
+        "text": "Pou kesyon, klarifikasyon oswa avi legal, kontakte nou nan:",
+        "items": [
+          "<a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>"
+        ]
+      }
+    ]
+  },
+
+  "preguntas_frecuentes": {
+    "title": "Kesyon Yo Poze Souvan – LOGENIK",
+    "date": "Dènye mizajou: 23 oktòb 2025",
+    "intro": "Isit la w ap jwenn repons pou kesyon ki pi komen sou sèvis, pwosesis ak politik LOGENIK yo. Si ou pa jwenn sa w ap chèche a, kontakte nou nan <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a>.",
+    "questions": [
+      {
+        "number": 1,
+        "question": "Ki sèvis LOGENIK ofri?",
+        "answer": "LOGENIK ofri devlopman entènèt ak lojisyèl sou mezi, konsiltasyon IT, sipò teknik ak antretyen. Nan lavni, nou pral ofri tou vann pwodwi sou entènèt."
+      },
+      {
+        "number": 2,
+        "question": "Konbyen tan yon pwojè pran?",
+        "answer": "Tan livrezon depann sou kalite ak dimansyon pwojè a. Nou bay tan estime apre nou fin konnen tout bezwen konplè biznis oswa konpayi w."
+      },
+      {
+        "number": 3,
+        "question": "Kisa antretyen oswa sipò teknik enkli?",
+        "answer": "Li enkli mizajou sistèm, siveyans sekirite, korije erè ak sipò teknik pa imel oswa apèl selon plan ou chwazi a."
+      },
+      {
+        "number": 4,
+        "question": "Kijan mwen ka mande yon sitasyon?",
+        "answer": "Ranpli fòm kontak nou sou sit entènèt la oswa voye yon imel nan <a href='mailto:contact@logenik.net' class='text-decoration-none fw-bold'>contact@logenik.net</a> ak detay pwojè ou ak bezwen ou yo."
+      },
+      {
+        "number": 5,
+        "question": "Èske done mwen yo an sekirite?",
+        "answer": "Wi. Nou pwoteje done pèsonèl ou selon Lwa Federal sou Pwoteksyon Done Pèsonèl nan Pòsè Partikilye (LFPDPPP) epi aplike mezi sekirite entèn."
+      },
+      {
+        "number": 6,
+        "question": "Mwen ka anile yon sèvis oswa yon lòd sou entènèt?",
+        "answer": "Wi. Kondisyon anilasyon yo fikse nan kontra oswa akò vann ki koresponn lan, selon kalite sèvis oswa pwodwi a."
+      },
+      {
+        "number": 7,
+        "question": "Kijan nou reponn demann kliyan yo?",
+        "answer": "Nou reponn tout demann pa imel oswa telefòn nan yon maksimòm de 24 èdtan ouvrab. Objektif nou se bay sipò rapid ak pèsonalize."
+      },
+      {
+        "number": 8,
+        "question": "Èske sèvis nou yo gen garanti?",
+        "answer": "Wi, tout sèvis nou yo gen garanti kalite ak sipò apre livrezon. Dire ak kondisyon espesifik yo depann sou kalite pwojè a."
+      },
+      {
+        "number": 9,
+        "question": "Èske nou travay ak kliyan entènasyonal?",
+        "answer": "Wi, LOGENIK bay sèvis pou konpayi ak antreprenè atravè lemond, adapte ak diferan zòn tan ak bezwen kominikasyon."
+      },
+      {
+        "number": 10,
+        "question": "Mwen ka mande chanjman pandan devlopman pwojè a?",
+        "answer": "Wi, ou ka mande ajisteman oswa modifikasyon pandan devlopman an. Chanjman yo jere selon dimansyon pwojè a e yo ka afekte tan ak pri final la."
+      }
+    ]
+  },
+
   "footer": {
-    "quick_links": "Lyen rapid",
+    "quick_links": "Lyèn rapid",
     "social": "Rezo sosyal",
     "contact": "Kontak",
-    "rights_reserved": "Tout dwa rezève."
+    "rights_reserved": "Tout dwa rezève.",
+    "description": "Nou transfòme lide yo an solisyon dijital inovatè. Patnè teknolojik ou ka fè konfyans pou siksè biznis ou.",
+    "legal": {
+      "title": "Legal",
+      "privacy": "Politik sou vi prive",
+      "terms": "Tèm Sèvis",
+      "faq": "Kesyon yo poze souvan"
+    }
   }
 }

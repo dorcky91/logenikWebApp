@@ -1,33 +1,4 @@
-import { motion } from "motion/react";
-import { cascadeUp } from "../../../utils/helpers";
 import "./Clientes.css";
-
-const clients = [
-  {
-    name: "Empresa 1",
-    logo: "https://pub-e63b17b4d990438a83af58c15949f8a2.r2.dev/type/aven.png",
-  },
-  {
-    name: "Empresa 2",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png",
-  },
-  {
-    name: "Empresa 3",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png",
-  },
-  {
-    name: "Empresa 4",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/1/14/FRONT3X-Logo.png",
-  },
-  {
-    name: "Empresa 5",
-    logo: "https://static.vecteezy.com/system/resources/thumbnails/019/766/240/small/amazon-logo-amazon-icon-transparent-free-png.png",
-  },
-  {
-    name: "Empresa 6",
-    logo: "https://mosalii.com.mx/wp-content/uploads/2017/10/PNGPIX-COM-FedEx-Logo-PNG-Transparent.png",
-  },
-];
 
 export const Clientes = () => {
   return (
@@ -35,13 +6,10 @@ export const Clientes = () => {
       <div className="animate-scroll">
         {/* Duplicamos los logos para scroll infinito */}
         {clients.concat(clients).map((client, idx) => (
-          <motion.img
-            {...cascadeUp(idx)}
+          <img
             key={idx}
             src={client.logo}
             alt={client.name}
-            width={200}
-            height={200}
             className="client-logo"
           />
         ))}
@@ -49,3 +17,33 @@ export const Clientes = () => {
     </div>
   );
 };
+
+const clients = [
+  {
+    name: "ESI Unified",
+    logo: "/images/clients/esi-unified.png",
+  },
+  {
+    name: "Nora",
+    logo: "/images/clients/nora.png",
+  },
+
+  {
+    name: "Arche",
+    logo: "/images/clients/logoArche.png",
+  },
+
+  {
+    name: "Fashion Lover",
+    logo: "/images/clients/fashion-lover.png",
+  },
+  {
+    name: "WOLFGAIN",
+    logo: "/images/clients/wolfgain.png",
+  },
+
+  {
+    name: "Arche",
+    logo: "/images/clients/arche.png",
+  },
+];
